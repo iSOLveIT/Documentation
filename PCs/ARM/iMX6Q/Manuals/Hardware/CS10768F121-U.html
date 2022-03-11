@@ -21,23 +21,49 @@
 
   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel="stylesheet">
 
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Open+Sans:ital@0;1&display=swap');
       body,
       input {
-        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+        font-family: 'Open Sans', sans-serif!important;
+        color: #666666 !important;
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 1.5 !important;
+      }
+      h1, h2, h3{
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 500!important;
+        color: #2D445E !important;
+        line-height: 1.4 !important;
+      }
+
+      h1{
+        font-size: 34px !important;
+        margin-bottom: 20px !important;
+      }
+      h2{
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+      }
+      h3{
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
       }
 
       code,
       kbd,
       pre {
-        font-family: "Roboto Mono", "Courier New", Courier, monospace
+        font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+        background-color: #2d445e1c!important;
       }
+
+      .md-nav__link[data-md-state=blur] {
+            color: rgb(187 187 187)!important;
+        }
+
     </style>
-  
 
   <link rel="stylesheet" href="../../../../../_static/stylesheets/application.css"/>
   <link rel="stylesheet" href="../../../../../_static/stylesheets/application-palette.css"/>
@@ -532,11 +558,11 @@
   <section id="product">
 <span id="ppc-a9-121-u-c"></span><h1 id="pcs-arm-imx6q-manuals-hardware-cs10768f121-u--page-root">PPC-A9-121-U-C<a class="headerlink" href="#pcs-arm-imx6q-manuals-hardware-cs10768f121-u--page-root" title="Permalink to this headline">¶</a></h1>
 <p class="rubric"><em>Version 1.0</em></p>
-<img alt="Front View" class="no-scaled-link product-img" src="../../../../../_images/PPC-A9-121-U-C-Front.jpeg"/>
-<img alt="Back View" class="no-scaled-link product-img" src="../../../../../_images/PPC-A9-121-U-C-Back.jpeg"/>
-<img alt="Side View" class="no-scaled-link product-img" src="../../../../../_images/PPC-A9-121-U-C-Side-A.jpeg"/>
-<img alt="Side View" class="no-scaled-link product-img" src="../../../../../_images/PPC-A9-121-U-C-Side-B.jpeg"/>
-<section id="product-overview">
+<div class="row" data-bs-target="#imageModal" data-bs-toggle="modal" id="gallery"><div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;"><img alt="Front View" class="product-img img-thumbnail mx-auto d-block" src="../../../../../_images/PPC-A9-121-U-C-Front.jpeg"/>
+</div><div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;"><img alt="Back View" class="product-img img-thumbnail mx-auto d-block" src="../../../../../_images/PPC-A9-121-U-C-Back.jpeg"/>
+</div><div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;"><img alt="Side-A View" class="product-img img-thumbnail mx-auto d-block" src="../../../../../_images/PPC-A9-121-U-C-Side-A.jpeg"/>
+</div><div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;"><img alt="Side-B View" class="product-img img-thumbnail mx-auto d-block" src="../../../../../_images/PPC-A9-121-U-C-Side-B.jpeg"/>
+</div></div><section id="product-overview">
 <h2 id="product-overview">Product Overview<a class="headerlink" href="#product-overview" title="Permalink to this headline">¶</a></h2>
 <p>The Cortex<sup>®</sup>-A9 series PPC-A9-121-U-C (PN: CS10768F121-U) is a rugged, high-quality industrial panel PC. It features a 12.1” multi-point capacitive touch screen with a resolution of 1024 x 768 pixels.</p>
 <aside class="sidebar">
@@ -723,7 +749,7 @@ The polarity and the pinout is clearly marked on the housing of the product as s
 <figure class="align-center" id="id7">
 <img alt="../../../../../_images/Power4.jpeg" src="../../../../../_images/Power4.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 71:  </span><span class="caption-text"><em>Power Input</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 67:  </span><span class="caption-text"><em>Power Input</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>Note that the “<strong>+</strong>” sign represents the positive power input, and it is printed both at the casing and as a silk-screen on a PCB of the embedded version. The “<strong>-</strong>” terminal is shorted to the ground.</p>
@@ -784,7 +810,7 @@ Serial communication on both RS485 and RS422 interfaces can reach up to 115200 k
 <figure class="align-center" id="id9">
 <img alt="../../../../../_images/IO-Peripherals.png" src="../../../../../_images/IO-Peripherals.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 72:  </span><span class="caption-text"><em>Serial pins connector</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 68:  </span><span class="caption-text"><em>Serial pins connector</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>The table below offers more detailed description of every pin and its definition:</p>
@@ -881,7 +907,7 @@ need the I/O port function instead, please contact Chipsee Technical Support at 
 <figure class="align-center" id="id11">
 <img alt="../../../../../_images/USB5.jpeg" src="../../../../../_images/USB5.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 73:  </span><span class="caption-text"><em>USB HOST Connectors</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 69:  </span><span class="caption-text"><em>USB HOST Connectors</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -893,7 +919,7 @@ default.</p>
 <figure class="align-center" id="id12">
 <img alt="../../../../../_images/USB_OTG2.jpeg" src="../../../../../_images/USB_OTG2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 74:  </span><span class="caption-text"><em>USB OTG Connector</em></span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 70:  </span><span class="caption-text"><em>USB OTG Connector</em></span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -904,7 +930,7 @@ up to 1 Gbps data throughput. Power over Ethernet (PoE) is not supported.</p>
 <figure class="align-center" id="id13">
 <img alt="../../../../../_images/LAN4.jpeg" src="../../../../../_images/LAN4.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 75:  </span><span class="caption-text"><em>RJ45 LAN Connector</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 71:  </span><span class="caption-text"><em>RJ45 LAN Connector</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -919,7 +945,7 @@ The product includes an SMA connector for an external WiFi/BT antenna, as illust
 <figure class="align-center" id="id14">
 <img alt="../../../../../_images/Antenna4.jpeg" src="../../../../../_images/Antenna4.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 76:  </span><span class="caption-text"><em>WiFi+BT Antenna</em></span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 72:  </span><span class="caption-text"><em>WiFi+BT Antenna</em></span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -930,7 +956,7 @@ The customer will also need a SIM Card Holder and a 4G/LTE Antenna Connector to 
 <figure class="align-center" id="id15">
 <img alt="../../../../../_images/SIM.jpeg" src="../../../../../_images/SIM.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 77:  </span><span class="caption-text"><em>SIM Card Holder</em></span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 73:  </span><span class="caption-text"><em>SIM Card Holder</em></span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -947,7 +973,7 @@ The customer will also need a SIM Card Holder and a 4G/LTE Antenna Connector to 
 <figure class="align-center" id="id16">
 <img alt="../../../../../_images/Cam_Mic_Finger.jpeg" src="../../../../../_images/Cam_Mic_Finger.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 78:  </span><span class="caption-text"><em>Camera, Mic, and Fingerprint module</em></span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 74:  </span><span class="caption-text"><em>Camera, Mic, and Fingerprint module</em></span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -962,7 +988,7 @@ The customer will also need a SIM Card Holder and a 4G/LTE Antenna Connector to 
 <figure class="align-center" id="id17">
 <img alt="../../../../../_images/Audio4.jpeg" src="../../../../../_images/Audio4.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 79:  </span><span class="caption-text"><em>Audio Out Connector</em></span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 75:  </span><span class="caption-text"><em>Audio Out Connector</em></span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -973,7 +999,7 @@ can be configured by the software.</p>
 <figure class="align-center" id="id18">
 <img alt="../../../../../_images/HDMI3.jpeg" src="../../../../../_images/HDMI3.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 80:  </span><span class="caption-text"><em>HDMI Connector</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 76:  </span><span class="caption-text"><em>HDMI Connector</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -986,7 +1012,7 @@ Detailed information on how to re-flash the OS can be found in the <a class="ref
 <figure class="align-center" id="id19">
 <img alt="../../../../../_images/Boot_SW.jpeg" src="../../../../../_images/Boot_SW.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 81:  </span><span class="caption-text"><em>Boot DIP Switch</em></span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 77:  </span><span class="caption-text"><em>Boot DIP Switch</em></span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <span id="boot-sw-table"></span><table id="id20" style="width: 50%">
@@ -1032,14 +1058,14 @@ Detailed information on how to re-flash the OS can be found in the <a class="ref
 <figure class="align-center" id="id21">
 <img alt="../../../../../_images/VMount.jpeg" src="../../../../../_images/VMount.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 82:  </span><span class="caption-text"><em>VESA mounting</em></span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 78:  </span><span class="caption-text"><em>VESA mounting</em></span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>You can mount PPC-A9-121-U-C with the Panel mounting method, as shown on the figure below.</p>
 <figure class="align-center" id="id22">
 <img alt="../../../../../_images/PMount.jpeg" src="../../../../../_images/PMount.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 83:  </span><span class="caption-text"><em>Panel mounting</em></span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 79:  </span><span class="caption-text"><em>Panel mounting</em></span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -1064,7 +1090,7 @@ product measurements.</p>
 <figure class="align-center" id="id23">
 <img alt="../../../../../_images/PPC-A9-121-U-C-TD.jpeg" src="../../../../../_images/PPC-A9-121-U-C-TD.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 84:  </span><span class="caption-text"><em>Technical Drawing</em></span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 80:  </span><span class="caption-text"><em>Technical Drawing</em></span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -1140,7 +1166,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Mar 09, 2022.
+              Mar 11, 2022.
             <br/>
         </div>
       </div>

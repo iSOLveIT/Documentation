@@ -21,23 +21,49 @@
 
   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel="stylesheet">
 
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Open+Sans:ital@0;1&display=swap');
       body,
       input {
-        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+        font-family: 'Open Sans', sans-serif!important;
+        color: #666666 !important;
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 1.5 !important;
+      }
+      h1, h2, h3{
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 500!important;
+        color: #2D445E !important;
+        line-height: 1.4 !important;
+      }
+
+      h1{
+        font-size: 34px !important;
+        margin-bottom: 20px !important;
+      }
+      h2{
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+      }
+      h3{
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
       }
 
       code,
       kbd,
       pre {
-        font-family: "Roboto Mono", "Courier New", Courier, monospace
+        font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+        background-color: #2d445e1c!important;
       }
+
+      .md-nav__link[data-md-state=blur] {
+            color: rgb(187 187 187)!important;
+        }
+
     </style>
-  
 
   <link rel="stylesheet" href="../../../../../_static/stylesheets/application.css"/>
   <link rel="stylesheet" href="../../../../../_static/stylesheets/application-palette.css"/>
@@ -442,25 +468,10 @@
   <section id="product">
 <span id="ppc-j1900-190-r"></span><h1 id="pcs-intel-j1900-manuals-hardware-ppc-j1900-190-r--page-root">PPC-J1900-190-R<a class="headerlink" href="#pcs-intel-j1900-manuals-hardware-ppc-j1900-190-r--page-root" title="Permalink to this headline">¶</a></h1>
 <p class="rubric"><em>Version 1.0</em></p>
-<figure class="align-center align-default" id="id1">
-<img alt="../../../../../_images/PPC-J1900-190-R-Front.jpg" class="no-scaled-link" src="../../../../../_images/PPC-J1900-190-R-Front.jpg"/>
-<figcaption>
-<p><span class="caption-number">Figure 787:  </span><span class="caption-text">Front View</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-<figure class="align-center align-default" id="id2">
-<img alt="../../../../../_images/PPC-J1900-190-R-Back.jpg" class="no-scaled-link" src="../../../../../_images/PPC-J1900-190-R-Back.jpg"/>
-<figcaption>
-<p><span class="caption-number">Figure 788:  </span><span class="caption-text">Back View</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-<figure class="align-center align-default" id="id3">
-<img alt="../../../../../_images/PPC-J1900-190-R-Side.jpg" class="no-scaled-link" src="../../../../../_images/PPC-J1900-190-R-Side.jpg"/>
-<figcaption>
-<p><span class="caption-number">Figure 789:  </span><span class="caption-text">Side View</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-<section id="product-overview">
+<div class="row" data-bs-target="#imageModal" data-bs-toggle="modal" id="gallery"><div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;"><img alt="Front View" class="product-img img-thumbnail mx-auto d-block" src="../../../../../_images/PPC-J1900-190-R-Front.jpg"/>
+</div><div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;"><img alt="Back View" class="product-img img-thumbnail mx-auto d-block" src="../../../../../_images/PPC-J1900-190-R-Back.jpg"/>
+</div><div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;"><img alt="Side View" class="product-img img-thumbnail mx-auto d-block" src="../../../../../_images/PPC-J1900-190-R-Side.jpg"/>
+</div></div><section id="product-overview">
 <h2 id="product-overview">Product Overview<a class="headerlink" href="#product-overview" title="Permalink to this headline">¶</a></h2>
 <p>The PPC-j1900 series PPC-J1900-190-R is a rugged, high-quality NEMA 4X/IP65-compliant industrial panel PC. It features a 19.0” resistive touch screen with a resolution of 1280 x 1024 pixels.</p>
 <aside class="sidebar">
@@ -513,8 +524,8 @@ In addition to Linux, PPC-J1900-190-R also supports Windows 7 and Windows 10 OS.
 <h2 id="hardware-features">Hardware Features<a class="headerlink" href="#hardware-features" title="Permalink to this headline">¶</a></h2>
 <p>The PPC-J1900-190-R Industrial Panel PC offers a broad range of performance and connectivity options for scalable integration, providing expandability according to future needs.
 Some of the key features are listed in the table below.</p>
-<table id="id4" style="width: 100%">
-<caption><span class="caption-number">Table 153:  </span><span class="caption-text">Table 1: Key Features</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<table id="id1" style="width: 100%">
+<caption><span class="caption-number">Table 153:  </span><span class="caption-text">Table 1: Key Features</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="2"><p class="centered">
 <strong>PPC-J1900-190-R</strong></p></th>
@@ -594,10 +605,10 @@ The polarity of the power connector is clearly labeled on the housing itself: th
 <p>The <strong>POWER</strong> button is located next to the power input connector and can be used to switch the power ON or OFF.</p>
 <p>The power input section of PPC-J1900-190-R features a range of protection features, including over-current, over-voltage, power surge, and reverse polarity protection, allowing
 it to meet stringent industrial safety regulations.</p>
-<figure class="align-center" id="id5">
+<figure class="align-center" id="id2">
 <img alt="../../../../../_images/PPC-J1900-Power.png" src="../../../../../_images/PPC-J1900-Power.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 790:  </span><span class="caption-text"><em>Figure 1: Power Input Section</em></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 713:  </span><span class="caption-text"><em>Figure 1: Power Input Section</em></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -625,10 +636,10 @@ Gigabit Ethernet (GbE), and up to 4 x RS232 connectors, of which two can be conf
 be configured either as RS232 or RS485 communication interfaces.</p>
 <p>The bottom row of terminals on the terminal block is labeled as <strong>COM3/4</strong>. These terminals are configured as two additional RS232 interfaces by default. The upper row of
 terminals on the terminal block represents eight <strong>GPIO</strong> channels, labeled as <strong>GPIO (0 … 7)</strong>.</p>
-<figure class="align-center" id="id6">
+<figure class="align-center" id="id3">
 <img alt="../../../../../_images/PPC-J1900-Con.png" src="../../../../../_images/PPC-J1900-Con.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 791:  </span><span class="caption-text"><em>Figure 2: Connectivity Section - 2 x D-sub Connectors &amp; 16-pin Double-Row Pluggable Terminal Block</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 714:  </span><span class="caption-text"><em>Figure 2: Connectivity Section - 2 x D-sub Connectors &amp; 16-pin Double-Row Pluggable Terminal Block</em></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -643,10 +654,10 @@ please contact Chipsee Technical Support at <a class="reference external" href="
 interface can reach up to 4.8 Gbps, while the USB 2.0 interfaces are limited to 480 Mbps.</p>
 <p>Although fully compatible with USB 2.0 devices, the USB 3.0 interface provides 10 times more data transfer bandwidth than USB 2.0, making it best suited for fast peripherals that
 can utilize its full potential.</p>
-<figure class="align-center" id="id7">
+<figure class="align-center" id="id4">
 <img alt="../../../../../_images/PPC-J1900-USB.png" src="../../../../../_images/PPC-J1900-USB.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 792:  </span><span class="caption-text"><em>Figure 3: USB HOST Connectors</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 715:  </span><span class="caption-text"><em>Figure 3: USB HOST Connectors</em></span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -654,10 +665,10 @@ can utilize its full potential.</p>
 <h3 id="lan-connectors">LAN Connectors<a class="headerlink" href="#lan-connectors" title="Permalink to this headline">¶</a></h3>
 <p>2 x <strong>LAN (RJ45) connectors</strong> <em>(Figure 4)</em> provide Ethernet connectivity over standardized Ethernet cables. The integrated two-port Ethernet interface supports
 10/100/1000BASE-T/TX specifications with automatic speed negotiation and Wake on LAN (WoL) functionality. Power over Ethernet (PoE) is not supported.</p>
-<figure class="align-center" id="id8">
+<figure class="align-center" id="id5">
 <img alt="../../../../../_images/PPC-J1900-LAN.png" src="../../../../../_images/PPC-J1900-LAN.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 793:  </span><span class="caption-text"><em>Figure 4: 2 x RJ45 GbE LAN Connectors</em></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 716:  </span><span class="caption-text"><em>Figure 4: 2 x RJ45 GbE LAN Connectors</em></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -669,10 +680,10 @@ can utilize its full potential.</p>
 <h3 id="hdmi-connector">HDMI Connector<a class="headerlink" href="#hdmi-connector" title="Permalink to this headline">¶</a></h3>
 <p>The PPC-J1900-190-R Industrial Panel PC is equipped with 1 x <strong>HDMI</strong> connector. The HDMI connector <em>(Figure 5)</em> allows connecting an additional (external) monitor. HDMI output resolution
 can be configured by the software.</p>
-<figure class="align-center" id="id9">
+<figure class="align-center" id="id6">
 <img alt="../../../../../_images/PPC-J1900-HDMI.png" src="../../../../../_images/PPC-J1900-HDMI.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 794:  </span><span class="caption-text"><em>Figure 5: HDMI Connector</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 717:  </span><span class="caption-text"><em>Figure 5: HDMI Connector</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -687,10 +698,10 @@ might also be supported according to the table in the <a class="reference intern
 <h2 id="mechanical-specifications">Mechanical Specifications<a class="headerlink" href="#mechanical-specifications" title="Permalink to this headline">¶</a></h2>
 <p>The outer mechanical dimensions of The PPC-J1900-190-R Industrial Panel PC are 447 x 371 x 55mm (W x L x H). Please refer to the technical drawing in <em>Figure 6</em> for details related to the specific
 product measurements.</p>
-<figure class="align-center" id="id10">
+<figure class="align-center" id="id7">
 <img alt="../../../../../_images/PPC-J1900-190-R-TD.jpg" src="../../../../../_images/PPC-J1900-190-R-TD.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 795:  </span><span class="caption-text"><em>Figure 6: PPC-J1900-190-R Technical Drawing</em></span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 718:  </span><span class="caption-text"><em>Figure 6: PPC-J1900-190-R Technical Drawing</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -766,7 +777,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Mar 09, 2022.
+              Mar 11, 2022.
             <br/>
         </div>
       </div>

@@ -21,23 +21,49 @@
 
   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel="stylesheet">
 
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Open+Sans:ital@0;1&display=swap');
       body,
       input {
-        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+        font-family: 'Open Sans', sans-serif!important;
+        color: #666666 !important;
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 1.5 !important;
+      }
+      h1, h2, h3{
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 500!important;
+        color: #2D445E !important;
+        line-height: 1.4 !important;
+      }
+
+      h1{
+        font-size: 34px !important;
+        margin-bottom: 20px !important;
+      }
+      h2{
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+      }
+      h3{
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
       }
 
       code,
       kbd,
       pre {
-        font-family: "Roboto Mono", "Courier New", Courier, monospace
+        font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+        background-color: #2d445e1c!important;
       }
+
+      .md-nav__link[data-md-state=blur] {
+            color: rgb(187 187 187)!important;
+        }
+
     </style>
-  
 
   <link rel="stylesheet" href="../../../../../_static/stylesheets/application.css"/>
   <link rel="stylesheet" href="../../../../../_static/stylesheets/application-palette.css"/>
@@ -612,19 +638,19 @@ Please refer to <a class="reference internal" href="../Hardware/CS10600U070.html
 <figure class="align-center" id="id1">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_01.jpg"><img alt="../../../../../_images/Debian_Shot_01.jpg" src="../../../../../_images/Debian_Shot_01.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 361:  </span><span class="caption-text">Figure 1: Add Session</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 345:  </span><span class="caption-text">Figure 1: Add Session</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id2">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_02.jpg"><img alt="../../../../../_images/Debian_Shot_02.jpg" src="../../../../../_images/Debian_Shot_02.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 362:  </span><span class="caption-text">Figure 1a: Session Properties</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 346:  </span><span class="caption-text">Figure 1a: Session Properties</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id3">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_03.jpg"><img alt="../../../../../_images/Debian_Shot_03.jpg" src="../../../../../_images/Debian_Shot_03.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 363:  </span><span class="caption-text">Figure 1b: Serial Debug</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 347:  </span><span class="caption-text">Figure 1b: Serial Debug</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -636,13 +662,13 @@ In this documentation, we will cover XShell SSH debugging procedure.</p>
 <figure class="align-center" id="id4">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_04.jpg"><img alt="../../../../../_images/Debian_Shot_04.jpg" src="../../../../../_images/Debian_Shot_04.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 364:  </span><span class="caption-text">Figure 2: SSH Settings</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 348:  </span><span class="caption-text">Figure 2: SSH Settings</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id5">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_05.jpg"><img alt="../../../../../_images/Debian_Shot_05.jpg" src="../../../../../_images/Debian_Shot_05.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 365:  </span><span class="caption-text">Figure 2a: SSH Debug</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 349:  </span><span class="caption-text">Figure 2a: SSH Debug</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -665,19 +691,19 @@ $x11vnc -display :0 -forever -bg -rfbauth /home/chipsee/.vnc/passwd -rfbport 590
 <figure class="align-center" id="id6">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_06.jpg"><img alt="../../../../../_images/Debian_Shot_06.jpg" src="../../../../../_images/Debian_Shot_06.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 366:  </span><span class="caption-text">Figure 2b: VNC Viewer Connect</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 350:  </span><span class="caption-text">Figure 2b: VNC Viewer Connect</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id7">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_07.jpg"><img alt="../../../../../_images/Debian_Shot_07.jpg" src="../../../../../_images/Debian_Shot_07.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 367:  </span><span class="caption-text">Figure 2c: Authentication</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 351:  </span><span class="caption-text">Figure 2c: Authentication</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id8">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_08.jpg"><img alt="../../../../../_images/Debian_Shot_08.jpg" src="../../../../../_images/Debian_Shot_08.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 368:  </span><span class="caption-text">Figure 2d: VNC Desktop</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 352:  </span><span class="caption-text">Figure 2d: VNC Desktop</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -692,7 +718,7 @@ Booting from the external TF Card allows flashing the system OS.</p>
 <span class="target" id="f3"></span><figure class="align-center" id="id9">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_09.jpg"><img alt="../../../../../_images/Debian_Shot_09.jpg" src="../../../../../_images/Debian_Shot_09.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 369:  </span><span class="caption-text">Figure 3: Boot Mode Setup</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 353:  </span><span class="caption-text">Figure 3: Boot Mode Setup</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -791,7 +817,7 @@ Also, both storage types support NTFS and FAT32 file system.</p>
 <figure class="align-center" id="id11">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_10.jpg"><img alt="../../../../../_images/Debian_Shot_10.jpg" src="../../../../../_images/Debian_Shot_10.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 370:  </span><span class="caption-text">Figure 4: TF Card Contents</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 354:  </span><span class="caption-text">Figure 4: TF Card Contents</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -802,13 +828,13 @@ After you set the static IP, reboot the system to enable it (<em>Figure 5a</em> 
 <figure class="align-center" id="id12">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_11.jpg"><img alt="../../../../../_images/Debian_Shot_11.jpg" src="../../../../../_images/Debian_Shot_11.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 371:  </span><span class="caption-text">Figure 5: Ethernet Settings (Wired Network Manager)</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 355:  </span><span class="caption-text">Figure 5: Ethernet Settings (Wired Network Manager)</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id13">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_12.jpg"><img alt="../../../../../_images/Debian_Shot_12.jpg" src="../../../../../_images/Debian_Shot_12.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 372:  </span><span class="caption-text">Figure 5a: Setting up Static IP</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 356:  </span><span class="caption-text">Figure 5a: Setting up Static IP</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -877,7 +903,7 @@ Two devices can be interconnected as on the <em>Figure 6</em> below:</p>
 <figure class="align-center" id="id15">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_13.jpg"><img alt="../../../../../_images/Debian_Shot_13.jpg" src="../../../../../_images/Debian_Shot_13.jpg"/></a>
 <figcaption>
-<p><span class="caption-number">Figure 373:  </span><span class="caption-text">Figure 6: CAN connection</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 357:  </span><span class="caption-text">Figure 6: CAN connection</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>The following example can be used to perform testing:</p>
@@ -1099,7 +1125,7 @@ $ ./hardwaretest_serial</p>
               
           </div>
             Last updated on
-              Mar 09, 2022.
+              Mar 11, 2022.
             <br/>
         </div>
       </div>
