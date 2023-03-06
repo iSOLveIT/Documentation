@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -42,7 +42,9 @@
     <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
     <script src="../../../../../_static/jquery.js"></script>
     <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
+    <script src="../../../../../_static/sphinx_highlight.js"></script>
     <script src="../../../../../_static/design-tabs.js"></script>
     <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
@@ -417,7 +419,35 @@
       <li class="md-nav__item">
       
       
+        <a href="../../../iMX6UL/OS_Downloads/index.html" class="md-nav__link">i.MX6UL OS Downloads</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
         <a href="../../../RK3399/Manuals/Hardware/index.html" class="md-nav__link">RK3399 Hardware Documentation</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../../../RK3399/OS_Downloads/index.html" class="md-nav__link">RK3399 OS Downloads</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../../../RK3568/Manuals/Hardware/index.html" class="md-nav__link">RK3568 Hardware Documentation</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../../../RK3568/OS_Downloads/index.html" class="md-nav__link">RK3568 OS Downloads</a>
         
       
       </li>
@@ -617,7 +647,7 @@
           <article class="md-content__inner md-typeset" role="main">
             
   <section id="systemtype-os">
-<h1 id="pcs-arm-imx6q-manuals-software-ubuntu-14--page-root">Ubuntu 14.04 OS<a class="headerlink" href="#pcs-arm-imx6q-manuals-software-ubuntu-14--page-root" title="Permalink to this headline">¶</a></h1>
+<h1 id="pcs-arm-imx6q-manuals-software-ubuntu-14--page-root">Ubuntu 14.04 OS<a class="headerlink" href="#pcs-arm-imx6q-manuals-software-ubuntu-14--page-root" title="Permalink to this heading">¶</a></h1>
 <p class="centered">
 <strong>Ubuntu 14.04 OS User Manual</strong></p><img alt="../../../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png"/>
 <p>This manual provides users with a fast guide of Chipsee Industrial Computer (Abbreviate as IPC) about Ubuntu 14.04 OS development. Through this manual, users can quickly understand the hardware resources; users can build a complete compilation of Linux development environment; users can debug Ubuntu 14.04 OS via serial and Internet.</p>
@@ -694,7 +724,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </tbody>
 </table>
 <section id="preparation">
-<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">¶</a></h2>
+<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this heading">¶</a></h2>
 <p>You will need to prepare the following items before you can start using the Prebuilt Files Package to re-flash the system.</p>
 <p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p>
 <ul class="simple">
@@ -704,7 +734,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </ul>
 <p>You need to prepare the Power Adapter by yourself</p>
 <section id="hardware-requirements">
-<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Chipsee Industrial PC</p></li>
 <li><p>PSU according to the instructions above</p></li>
@@ -716,7 +746,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </ul>
 </section>
 <section id="software-requirements">
-<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Ubuntu 14.04 OS Prebuilt Files Package (from the link above)</p></li>
 <li><p><a class="reference external" href="https://xshell.en.softonic.com/">Xshell</a> or other terminal emulation software</p></li>
@@ -742,11 +772,11 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </section>
 </section>
 <section id="debug">
-<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permalink to this headline">¶</a></h2>
+<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permalink to this heading">¶</a></h2>
 <p>In this document, we use Xshell to debug the Chipsee Industrial Computer. You can also use other tools such as Putty, Minicom, SecureCRT or any terminal emulation software.</p>
 <section id="serial-debug">
-<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Permalink to this headline">¶</a></h3>
-<p>You can refer to the RS232/RS485/CAN Connector section under the <a class="reference internal" href="../Hardware/CS10600F070.html#epc-ppc-a9-70-c"><span class="std std-ref">EPC/PPC-A9-70-C</span></a> manual to understand the serial ports of the IPC.
+<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Permalink to this heading">¶</a></h3>
+<p>You can refer to the RS232/RS485/CAN Connector section under the <a class="reference internal" href="../Hardware/CS10600F070.html#epc-ppc-a9-070-c"><span class="std std-ref">EPC/PPC-A9-070-C</span></a> manual to understand the serial ports of the IPC.
 The debug serial port of Chipsee Industrial Computer is the first RS232 port. You can use it to debug directly, and the default user and password is [chipsee/chipsee].
 You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 <p>Follow these steps to perform serial debugging:</p>
@@ -777,7 +807,7 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </ul>
 </section>
 <section id="ssh-debug">
-<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Permalink to this heading">¶</a></h3>
 <p>To perform SSH debugging on the Chipsee IPC, you must first connect the product to the Internet.</p>
 <p>Continue the debugging by follow these steps:</p>
 <ul>
@@ -806,21 +836,21 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </ul>
 </section>
 <section id="vnc-debug">
-<h3 id="vnc-debug">VNC Debug<a class="headerlink" href="#vnc-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="vnc-debug">VNC Debug<a class="headerlink" href="#vnc-debug" title="Permalink to this heading">¶</a></h3>
 <p>You can use the VNC-Viewer software in Windows to control Chipsee IPC over Ethernet. <br/></p>
 <p>Follow the steps below to perform VNC debug. <br/></p>
 <ul>
 <li><p>Use XShell Serial or SSH to connect to the Chipsee IPC by logining as <code class="docutils literal notranslate"><span class="pre">chipsee</span></code> user.</p></li>
 <li><dl>
-<dt>Use the following command to install x11vnc:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get update
-$ sudo apt-get install x11vnc
+<dt>Use the following command to install x11vnc:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>x11vnc
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Set the password for VNC-Viewer access. Save the password to default file: <cite>~/.vnc/passwd</cite>, as shown in the figure below.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo x11vnc -storepasswd
+<dt>Set the password for VNC-Viewer access. Save the password to default file: <cite>~/.vnc/passwd</cite>, as shown in the figure below.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>x11vnc<span class="w"> </span>-storepasswd
 </pre></div>
 </div>
 <figure class="align-center" id="id8">
@@ -871,9 +901,9 @@ $ sudo apt-get install x11vnc
 </section>
 </section>
 <section id="downloading-images">
-<h2 id="downloading-images">Downloading images<a class="headerlink" href="#downloading-images" title="Permalink to this headline">¶</a></h2>
+<h2 id="downloading-images">Downloading images<a class="headerlink" href="#downloading-images" title="Permalink to this heading">¶</a></h2>
 <section id="boot-switch-configuration">
-<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this headline">¶</a></h3>
+<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this heading">¶</a></h3>
 <p>CS-IMX6 has a boot configuration select switch, as shown on the figure below. You can use the boot select switch to change between three modes, namely：</p>
 <ul class="simple">
 <li><p>TF Card</p></li>
@@ -887,7 +917,7 @@ $ sudo apt-get install x11vnc
 </figcaption>
 </figure>
 <table id="id14" style="width: 100%">
-<caption><span class="caption-number">Table 61:  </span><span class="caption-text">Boot Configuration Selection</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 61 </span><span class="caption-text">Boot Configuration Selection</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>SW Mode</strong></p></th>
 <th class="head"><p><strong>1</strong></p></th>
@@ -923,13 +953,13 @@ $ sudo apt-get install x11vnc
 </div>
 </section>
 <section id="prebuilt-files-package">
-<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Permalink to this headline">¶</a></h3>
+<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Permalink to this heading">¶</a></h3>
 <p>You can get the Prebuilt Files Package for each model from links mentioned at the beginning of this documentation.
 You can also get the Prebuilt Files Package from the DVD in /Ubuntu 14.04/Prebuilds folder. However, it may be outdated so always
 compare the versions (the last number in the filename is the release date).</p>
 <p>The prebuilt package has the following content:</p>
 <table id="id15" style="width: 100%">
-<caption><span class="caption-number">Table 62:  </span><span class="caption-text">Prebuilt Files Package</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 62 </span><span class="caption-text">Prebuilt Files Package</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Contents</p></th>
 <th class="head"><p>Comment</p></th>
@@ -995,12 +1025,12 @@ compare the versions (the last number in the filename is the release date).</p>
 </div>
 </section>
 <section id="downloading-images-by-using-mfgtool">
-<h3 id="downloading-images-by-using-mfgtool">Downloading Images by using MFGTool<a class="headerlink" href="#downloading-images-by-using-mfgtool" title="Permalink to this headline">¶</a></h3>
+<h3 id="downloading-images-by-using-mfgtool">Downloading Images by using MFGTool<a class="headerlink" href="#downloading-images-by-using-mfgtool" title="Permalink to this heading">¶</a></h3>
 <p>The <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip">MFGTools</a> can be used to download images into a target device.
 It is a quick and easy tool for downloading images.</p>
 <p>Before downloading images with the MFGTools, set the boot switch to download mode. (refer to <a class="reference internal" href="#boot-switch-configuration">Boot Switch Configuration</a> above)</p>
 <section id="configuring-mfgtool">
-<h4 id="configuring-mfgtool">Configuring MFGTool<a class="headerlink" href="#configuring-mfgtool" title="Permalink to this headline">¶</a></h4>
+<h4 id="configuring-mfgtool">Configuring MFGTool<a class="headerlink" href="#configuring-mfgtool" title="Permalink to this heading">¶</a></h4>
 <p>To configure MFGTool, follow these steps:</p>
 <ul class="simple">
 <li><p>Untar <code class="docutils literal notranslate"><span class="pre">Mfgtools-K31452-Vx.x.tar.gz</span></code> file.</p></li>
@@ -1019,7 +1049,7 @@ It is a quick and easy tool for downloading images.</p>
 Modify config <code class="docutils literal notranslate"><span class="pre">UICfg.ini</span></code> file. This file has only one line: <code class="docutils literal notranslate"><span class="pre">PortMgrDlg=1</span></code> that indicates you can download the images to one board at the same time. The max value is 4.</p>
 </div>
 <section id="copy-image-to-android-directory">
-<h5 id="copy-image-to-android-directory">Copy Image To Android Directory<a class="headerlink" href="#copy-image-to-android-directory" title="Permalink to this headline">¶</a></h5>
+<h5 id="copy-image-to-android-directory">Copy Image To Android Directory<a class="headerlink" href="#copy-image-to-android-directory" title="Permalink to this heading">¶</a></h5>
 <p>Follow these steps to copy image to Linux directory:</p>
 <ul class="simple">
 <li><p>Copy the images from <cite>prebuilt-xxx/emmc-flash/emmc/</cite> to <cite>Mfgtools-K31452-V1.0\Profiles\Linux\OS Firmware\files\ubuntu</cite> directory.</p></li>
@@ -1032,7 +1062,7 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 </figure>
 </section>
 <section id="using-mfgtool">
-<h5 id="using-mfgtool">Using MFGTool<a class="headerlink" href="#using-mfgtool" title="Permalink to this headline">¶</a></h5>
+<h5 id="using-mfgtool">Using MFGTool<a class="headerlink" href="#using-mfgtool" title="Permalink to this heading">¶</a></h5>
 <ol class="arabic">
 <li><p>Connect a USB OTG cable from a Windows PC to the USB OTG port on the IPC.</p></li>
 <li><dl>
@@ -1107,13 +1137,13 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 </section>
 </section>
 <section id="downloading-images-by-using-the-tf-card">
-<h3 id="downloading-images-by-using-the-tf-card">Downloading Images by using the TF card<a class="headerlink" href="#downloading-images-by-using-the-tf-card" title="Permalink to this headline">¶</a></h3>
+<h3 id="downloading-images-by-using-the-tf-card">Downloading Images by using the TF card<a class="headerlink" href="#downloading-images-by-using-the-tf-card" title="Permalink to this heading">¶</a></h3>
 <p>Follow the steps below to download images onto the eMMC by using the TF Card:</p>
 <ol class="arabic">
 <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
 <li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p></li>
 <li><dl>
-<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo fdisk –l
+<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>fdisk<span class="w"> </span>–l
 </pre></div>
 </div>
 </dd>
@@ -1121,21 +1151,21 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 </li>
 <li><p>Copy the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code> to somewhere(such as $HOME) on the Ubuntu PC.</p></li>
 <li><dl>
-<dt>Extract the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar -xzvf prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz
+<dt>Extract the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tar<span class="w"> </span>-xzvf<span class="w"> </span>prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD
+<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Use the following command to flash the Ubuntu 14.04 OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ./mksdcard.sh --device /dev/sd&lt;?&gt;
+<dt>Use the following command to flash the Ubuntu 14.04 OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>./mksdcard.sh<span class="w"> </span>--device<span class="w"> </span>/dev/sd&lt;?&gt;
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1157,9 +1187,9 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 </section>
 </section>
 <section id="system-resource">
-<h2 id="system-resource">System Resource<a class="headerlink" href="#system-resource" title="Permalink to this headline">¶</a></h2>
+<h2 id="system-resource">System Resource<a class="headerlink" href="#system-resource" title="Permalink to this heading">¶</a></h2>
 <section id="tf-card-usb-sata-disk">
-<h3 id="tf-card-usb-sata-disk">TF Card/USB/SATA Disk<a class="headerlink" href="#tf-card-usb-sata-disk" title="Permalink to this headline">¶</a></h3>
+<h3 id="tf-card-usb-sata-disk">TF Card/USB/SATA Disk<a class="headerlink" href="#tf-card-usb-sata-disk" title="Permalink to this heading">¶</a></h3>
 <p>The TF Card and USB Storage supports hot-plug but the SATA Disk does not support hot-plug.
 These devices will be automatically mounted on <cite>/media/chipsee/</cite>, as shown in the figure.</p>
 <figure class="align-center" id="id25">
@@ -1174,10 +1204,10 @@ These devices will be automatically mounted on <cite>/media/chipsee/</cite>, as 
 </div>
 </section>
 <section id="network">
-<h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this headline">¶</a></h3>
+<h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this heading">¶</a></h3>
 <p>This system uses a networking service to control Ethernet and uses <code class="docutils literal notranslate"><span class="pre">wpa_supplicant</span></code> to control the WIFI network.</p>
 <section id="wired-ethernet">
-<h4 id="wired-ethernet">Wired Ethernet<a class="headerlink" href="#wired-ethernet" title="Permalink to this headline">¶</a></h4>
+<h4 id="wired-ethernet">Wired Ethernet<a class="headerlink" href="#wired-ethernet" title="Permalink to this heading">¶</a></h4>
 <p>You can get the IP address from the following application, as shown on the figure below.</p>
 <figure class="align-center" id="id26">
 <img alt="../../../../../_images/wired_11.jpeg" src="../../../../../_images/wired_11.jpeg"/>
@@ -1187,7 +1217,7 @@ These devices will be automatically mounted on <cite>/media/chipsee/</cite>, as 
 </figure>
 </section>
 <section id="wi-fi">
-<h4 id="wi-fi">Wi-Fi<a class="headerlink" href="#wi-fi" title="Permalink to this headline">¶</a></h4>
+<h4 id="wi-fi">Wi-Fi<a class="headerlink" href="#wi-fi" title="Permalink to this heading">¶</a></h4>
 <ul>
 <li><dl>
 <dt>Disconnect wired connection before you use Wi-iI. We will connect to the <em>Chipsee</em> network. Fill in the password, as shown on the figure below.</dt><dd><figure class="align-center" id="id27">
@@ -1235,30 +1265,30 @@ These devices will be automatically mounted on <cite>/media/chipsee/</cite>, as 
 </ul>
 </section>
 <section id="remove-and-install-network-manager-packages">
-<h4 id="remove-and-install-network-manager-packages">Remove and Install Network-manager Packages<a class="headerlink" href="#remove-and-install-network-manager-packages" title="Permalink to this headline">¶</a></h4>
+<h4 id="remove-and-install-network-manager-packages">Remove and Install Network-manager Packages<a class="headerlink" href="#remove-and-install-network-manager-packages" title="Permalink to this heading">¶</a></h4>
 <p>If you want to set a static IP, you can use the Networking Service to manage your network. Before that, you need to remove the Network-manager Package and reboot the IPC board. <br/>
 You can use this command to remove the packages:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get remove --purge network-manager
-$ sudo apt-get autoremove --purge network-manager
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>remove<span class="w"> </span>--purge<span class="w"> </span>network-manager
+$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>autoremove<span class="w"> </span>--purge<span class="w"> </span>network-manager
 </pre></div>
 </div>
 <p>If you want to reinstall it, use this commands:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install network-manager
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>network-manager
 </pre></div>
 </div>
 </section>
 <section id="networking-wired-ethernet">
-<h4 id="networking-wired-ethernet">Networking — Wired Ethernet<a class="headerlink" href="#networking-wired-ethernet" title="Permalink to this headline">¶</a></h4>
+<h4 id="networking-wired-ethernet">Networking — Wired Ethernet<a class="headerlink" href="#networking-wired-ethernet" title="Permalink to this heading">¶</a></h4>
 <p>You can get the <code class="docutils literal notranslate"><span class="pre">interfaces</span></code> file from <cite>/etc/network/</cite> directory, this is the config file for the Networking service. <br/>
 The following are some examples on how to set the network.</p>
 <ul>
 <li><dl>
 <dt>Set wired Ethernet to use DHCP in obtaining IP. Edit the <code class="docutils literal notranslate"><span class="pre">interfaces</span></code> file by adding these lines</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1">### ethX demo</span>
 <span class="c1">### For ethX uncomment follow two lines.</span>
-allow-hotplug  eth0
-auto  eth0
+allow-hotplug<span class="w">  </span>eth0
+auto<span class="w">  </span>eth0
 <span class="c1">## ethX dhcp demo</span>
-iface  eth0  inet  dhcp
+iface<span class="w">  </span>eth0<span class="w">  </span>inet<span class="w">  </span>dhcp
 </pre></div>
 </div>
 </dd>
@@ -1267,15 +1297,15 @@ iface  eth0  inet  dhcp
 <li><dl>
 <dt>Set wired Ethernet to use Static IP. Edit the <code class="docutils literal notranslate"><span class="pre">interfaces</span></code> file by adding these lines</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1">### ethX demo</span>
 <span class="c1">### For ethX uncomment follow two lines.</span>
-allow-hotplug  eth0
-auto  eth0
+allow-hotplug<span class="w">  </span>eth0
+auto<span class="w">  </span>eth0
 <span class="c1">## ethX static demo</span>
-iface  eth0  inet  static
-pre-up  ifconfig  eth0  hw  ether  <span class="m">00</span>:22:44:66:88:AA  //Set MAC
-address  <span class="m">192</span>.168.6.98
-netmask  <span class="m">255</span>.255.255.0
-gateway  <span class="m">192</span>.168.6.1
-dns-nameservers  <span class="m">8</span>.8.8.8      // <span class="nb">set</span> DNS
+iface<span class="w">  </span>eth0<span class="w">  </span>inet<span class="w">  </span>static
+pre-up<span class="w">  </span>ifconfig<span class="w">  </span>eth0<span class="w">  </span>hw<span class="w">  </span>ether<span class="w">  </span><span class="m">00</span>:22:44:66:88:AA<span class="w">  </span>//Set<span class="w"> </span>MAC
+address<span class="w">  </span><span class="m">192</span>.168.6.98
+netmask<span class="w">  </span><span class="m">255</span>.255.255.0
+gateway<span class="w">  </span><span class="m">192</span>.168.6.1
+dns-nameservers<span class="w">  </span><span class="m">8</span>.8.8.8<span class="w">      </span>//<span class="w"> </span><span class="nb">set</span><span class="w"> </span>DNS
 </pre></div>
 </div>
 </dd>
@@ -1284,7 +1314,7 @@ dns-nameservers  <span class="m">8</span>.8.8.8      // <span class="nb">set</sp
 </ul>
 </section>
 <section id="networking-wifi">
-<h4 id="networking-wifi">Networking — WIFI<a class="headerlink" href="#networking-wifi" title="Permalink to this headline">¶</a></h4>
+<h4 id="networking-wifi">Networking — WIFI<a class="headerlink" href="#networking-wifi" title="Permalink to this heading">¶</a></h4>
 <p>You can get the <code class="docutils literal notranslate"><span class="pre">interfaces</span></code> file from <cite>/etc/network/</cite> directory, this is the config file for the Networking service. <br/>
 The following are some examples on how to set the network.</p>
 <ul>
@@ -1298,12 +1328,12 @@ The following are some examples on how to set the network.</p>
 </dl>
 </li>
 <li><dl>
-<dt>Modify <cite>/etc/network/interfaces</cite>, like this:.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>auto  wlan0
-iface  wlan0  inet  dhcp
-wireless_mode  managed
-wireless_essid  any
-wpa-driver  nl80211
-wpa-conf  /etc/wpa_supplicant.conf
+<dt>Modify <cite>/etc/network/interfaces</cite>, like this:.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>auto<span class="w">  </span>wlan0
+iface<span class="w">  </span>wlan0<span class="w">  </span>inet<span class="w">  </span>dhcp
+wireless_mode<span class="w">  </span>managed
+wireless_essid<span class="w">  </span>any
+wpa-driver<span class="w">  </span>nl80211
+wpa-conf<span class="w">  </span>/etc/wpa_supplicant.conf
 </pre></div>
 </div>
 </dd>
@@ -1314,17 +1344,17 @@ wpa-conf  /etc/wpa_supplicant.conf
 </dl>
 </li>
 <li><dl>
-<dt>Enable Wi-Fi and set it to use a Static IP. Edit the <code class="docutils literal notranslate"><span class="pre">interfaces</span></code> file by adding these lines</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>iface wlan0 inet static
+<dt>Enable Wi-Fi and set it to use a Static IP. Edit the <code class="docutils literal notranslate"><span class="pre">interfaces</span></code> file by adding these lines</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>iface<span class="w"> </span>wlan0<span class="w"> </span>inet<span class="w"> </span>static
 
-address  <span class="m">192</span>.168.1.98
-netmask  <span class="m">255</span>.255.255.0
-gateway  <span class="m">192</span>.168.1.1
-dns-nameservers  <span class="m">8</span>.8.8.8
+address<span class="w">  </span><span class="m">192</span>.168.1.98
+netmask<span class="w">  </span><span class="m">255</span>.255.255.0
+gateway<span class="w">  </span><span class="m">192</span>.168.1.1
+dns-nameservers<span class="w">  </span><span class="m">8</span>.8.8.8
 
-wireless_mode  managed
-wireless_essid  any
-wpa-driver  nl80211
-wpa-conf  /etc/wpa_supplicant.conf
+wireless_mode<span class="w">  </span>managed
+wireless_essid<span class="w">  </span>any
+wpa-driver<span class="w">  </span>nl80211
+wpa-conf<span class="w">  </span>/etc/wpa_supplicant.conf
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1338,7 +1368,7 @@ wpa-conf  /etc/wpa_supplicant.conf
 </section>
 </section>
 <section id="multimedia">
-<h3 id="multimedia">Multimedia<a class="headerlink" href="#multimedia" title="Permalink to this headline">¶</a></h3>
+<h3 id="multimedia">Multimedia<a class="headerlink" href="#multimedia" title="Permalink to this heading">¶</a></h3>
 <p>This system supports NXP Gstreamer-imx Multimedia library and its various plugins.</p>
 <figure class="align-center" id="id31">
 <img alt="../../../../../_images/multimedia_1.jpeg" src="../../../../../_images/multimedia_1.jpeg"/>
@@ -1347,13 +1377,13 @@ wpa-conf  /etc/wpa_supplicant.conf
 </figcaption>
 </figure>
 <section id="audio-test">
-<h4 id="audio-test">Audio Test<a class="headerlink" href="#audio-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="audio-test">Audio Test<a class="headerlink" href="#audio-test" title="Permalink to this heading">¶</a></h4>
 <p>You can use the command below to record music. The <code class="docutils literal notranslate"><span class="pre">-d</span></code> parameter means <em>interrupt after # seconds</em>. In this example, <code class="docutils literal notranslate"><span class="pre">-d</span></code> is equal to 18 seconds.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  arecord  -N  -M  -r  <span class="m">44100</span>  -f  S16_LE  -c  <span class="m">2</span>  -d  <span class="m">18</span>  test.wav
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>arecord<span class="w">  </span>-N<span class="w">  </span>-M<span class="w">  </span>-r<span class="w">  </span><span class="m">44100</span><span class="w">  </span>-f<span class="w">  </span>S16_LE<span class="w">  </span>-c<span class="w">  </span><span class="m">2</span><span class="w">  </span>-d<span class="w">  </span><span class="m">18</span><span class="w">  </span>test.wav
 </pre></div>
 </div>
 <p>You can use the command below to playback the recorded sound above.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  aplay  -N  -M  test.wav
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>aplay<span class="w">  </span>-N<span class="w">  </span>-M<span class="w">  </span>test.wav
 </pre></div>
 </div>
 <p>You can also use the <strong>LXMusic</strong> to playback audio.</p>
@@ -1379,7 +1409,7 @@ wpa-conf  /etc/wpa_supplicant.conf
 </section>
 </section>
 <section id="hdmi">
-<h3 id="hdmi">HDMI<a class="headerlink" href="#hdmi" title="Permalink to this headline">¶</a></h3>
+<h3 id="hdmi">HDMI<a class="headerlink" href="#hdmi" title="Permalink to this heading">¶</a></h3>
 <p>You can follow the steps below to display the IPC output onto an external display via HDMI.</p>
 <ul>
 <li><p>Power OFF IPC. Connect the external display to the IPC using an HDMI cable.</p></li>
@@ -1401,27 +1431,27 @@ wpa-conf  /etc/wpa_supplicant.conf
 <li><dl>
 <dt>Use the following command to set different resolution</dt><dd><ul>
 <li><dl>
-<dt>For 1080p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv displayargs <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1920x1080M@60 <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>For 1080p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w"> </span>displayargs<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1920x1080M@60<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>For 720p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv displayargs <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1280x720M@60 <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>For 720p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w"> </span>displayargs<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1280x720M@60<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>For 480p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv displayargs <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,800x480M@60 <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>For 480p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w"> </span>displayargs<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,800x480M@60<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
@@ -1439,9 +1469,9 @@ wpa-conf  /etc/wpa_supplicant.conf
 </li>
 <li><p>Reboot the IPC.</p></li>
 <li><dl>
-<dt>Use the following command to reset the output from LDB.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv  displayargs  <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>ldb  <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off  <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>Use the following command to reset the output from LDB.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w">  </span>displayargs<span class="w">  </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>ldb<span class="w">  </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w">  </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
@@ -1450,12 +1480,12 @@ wpa-conf  /etc/wpa_supplicant.conf
 </ul>
 </section>
 <section id="serial-port">
-<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this headline">¶</a></h3>
+<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this heading">¶</a></h3>
 <p>There are five serial ports on the Chipsee IPC: 2 x RS232 and 3 x RS485 (can be customised). Refer to the table below for the available serial device nodes.</p>
 <p>The default serial port configuration is 2 x RS232, 2 x RS485, 1 x RS485 which is shared with Bluetooth. <br/>
 <strong>Contact us</strong> if you need help with changing the default serial port configuration</p>
 <table id="id37" style="width: 100%">
-<caption><span class="caption-number">Table 63:  </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id37" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 63 </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id37" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -1484,16 +1514,16 @@ wpa-conf  /etc/wpa_supplicant.conf
 <p>If you use COM2(RS485), you can’t use Bluetooth because COM2(RS485) share pin with Bluetooth.</p>
 </div>
 <p>You can install <strong>cutecom</strong> to test the serial port:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install cutecom
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>cutecom
 </pre></div>
 </div>
 <p>Only users with root permissions can use the serial port</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cutecom
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cutecom
 </pre></div>
 </div>
 </section>
 <section id="can-bus">
-<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this headline">¶</a></h3>
+<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this heading">¶</a></h3>
 <p>Chipsee Industrial PC is equipped with two CAN busses (CAN1 and CAN2). Two devices can be interconnected.
 You can test the CAN buses by using the <strong>HT application</strong> but you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.</p>
 <figure class="align-center" id="id38">
@@ -1509,29 +1539,29 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 <p>Here are a few examples to test CAN by using CAN units</p>
 <ul>
 <li><dl>
-<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt install can-utils
+<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>can-utils
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 <span class="nb">type</span> can bitrate <span class="m">50000</span> triple-sampling on
+<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span><span class="nb">type</span><span class="w"> </span>can<span class="w"> </span>bitrate<span class="w"> </span><span class="m">50000</span><span class="w"> </span>triple-sampling<span class="w"> </span>on
 </pre></div>
 </div>
 <p>OR</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">$sudo</span> canconfig can0 bitrate <span class="m">50000</span> ctrlmode triple-sampling on
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">$sudo</span><span class="w"> </span>canconfig<span class="w"> </span>can0<span class="w"> </span>bitrate<span class="w"> </span><span class="m">50000</span><span class="w"> </span>ctrlmode<span class="w"> </span>triple-sampling<span class="w"> </span>on
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 up
+<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>up
 </pre></div>
 </div>
 <p>OR</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo canconfig can0 start
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>canconfig<span class="w"> </span>can0<span class="w"> </span>start
 </pre></div>
 </div>
 </dd>
@@ -1541,33 +1571,33 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 <dt>Transfer packets</dt><dd><ul class="simple">
 <li><p>Transmit 8 bytes with standard packet id number as 0x10</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x10 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0x10<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Transmit 8 bytes with extended packet id number as 0x800</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x800 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 - e
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0x800<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88<span class="w"> </span>-<span class="w"> </span>e
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Transmit 20 8 bytes with extended packet id number as 0xFFFFF</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0xFFFFF 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 -e --loop<span class="o">=</span><span class="m">20</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0xFFFFF<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88<span class="w"> </span>-e<span class="w"> </span>--loop<span class="o">=</span><span class="m">20</span>
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo candump can0
+<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>candump<span class="w"> </span>can0
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 down
+<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>down
 </pre></div>
 </div>
 </dd>
@@ -1576,10 +1606,10 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 </ul>
 </section>
 <section id="gpio">
-<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this headline">¶</a></h3>
+<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
 <p>There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:</p>
 <table id="id39" style="width: 100%">
-<caption><span class="caption-number">Table 64:  </span><span class="caption-text">CS80480F070 – V1.0 P11 Port</span><a class="headerlink" href="#id39" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 64 </span><span class="caption-text">CS80480F070 – V1.0 P11 Port</span><a class="headerlink" href="#id39" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1613,7 +1643,7 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 </tbody>
 </table>
 <table id="id40" style="width: 100%">
-<caption><span class="caption-number">Table 65:  </span><span class="caption-text">CS10600F070 – V1.0 P21 Port</span><a class="headerlink" href="#id40" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 65 </span><span class="caption-text">CS10600F070 – V1.0 P21 Port</span><a class="headerlink" href="#id40" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1647,7 +1677,7 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 </tbody>
 </table>
 <table id="id41" style="width: 100%">
-<caption><span class="caption-number">Table 66:  </span><span class="caption-text">CS10600F070 – V2.0 P21 Port</span><a class="headerlink" href="#id41" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 66 </span><span class="caption-text">CS10600F070 – V2.0 P21 Port</span><a class="headerlink" href="#id41" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1681,7 +1711,7 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 </tbody>
 </table>
 <table id="id42" style="width: 100%">
-<caption><span class="caption-number">Table 67:  </span><span class="caption-text">CS12800F010 – V1.0 P28 Port</span><a class="headerlink" href="#id42" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 67 </span><span class="caption-text">CS12800F010 – V1.0 P28 Port</span><a class="headerlink" href="#id42" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1736,7 +1766,7 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 </div>
 </section>
 <section id="buzzer">
-<h3 id="buzzer">Buzzer<a class="headerlink" href="#buzzer" title="Permalink to this headline">¶</a></h3>
+<h3 id="buzzer">Buzzer<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
 <p>The buzzer is one GPIO, which has the GPIO Number as 80.</p>
 <p>You can test the buzzer with the following commands.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># echo  80  &gt; /sys/class/gpio/export                 //export gpio80</span>
@@ -1754,7 +1784,7 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 </figure>
 </section>
 <section id="modify-logo">
-<h3 id="modify-logo">Modify Logo<a class="headerlink" href="#modify-logo" title="Permalink to this headline">¶</a></h3>
+<h3 id="modify-logo">Modify Logo<a class="headerlink" href="#modify-logo" title="Permalink to this heading">¶</a></h3>
 <p>This system supports changing the logo by yourself. There are two ways:</p>
 <ul class="simple">
 <li><p>Replace the logo file in prebuilt images packages, and download images.</p></li>
@@ -1765,11 +1795,11 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 <p>Logo file is one 32bpp, format is bmp.</p>
 </div>
 <section id="method-1-downloading-images">
-<h4 id="method-1-downloading-images">Method 1 - Downloading images<a class="headerlink" href="#method-1-downloading-images" title="Permalink to this headline">¶</a></h4>
+<h4 id="method-1-downloading-images">Method 1 - Downloading images<a class="headerlink" href="#method-1-downloading-images" title="Permalink to this heading">¶</a></h4>
 <p>Replace the <cite>prebuilt-xxx/emmc-flash/emmc/logo.bmp</cite> and reference <a class="reference internal" href="#downloading-images-by-using-mfgtool">Downloading Images by using MFGTool</a> to flash the image.</p>
 </section>
 <section id="method-2-don-t-download-images">
-<h4 id="method-2-don-t-download-images">Method 2 - Don’t Download Images<a class="headerlink" href="#method-2-don-t-download-images" title="Permalink to this headline">¶</a></h4>
+<h4 id="method-2-don-t-download-images">Method 2 - Don’t Download Images<a class="headerlink" href="#method-2-don-t-download-images" title="Permalink to this heading">¶</a></h4>
 <p>We will use <strong>MFGTools</strong> and the <strong>Logoflasher</strong> apps to change the logo.</p>
 <p><strong>Use MFGTools to Change LOGO</strong></p>
 <ul>
@@ -1796,9 +1826,9 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 Follow the steps below to change logo</p>
 <ul>
 <li><dl>
-<dt>Use the following commands to make bootable TF card.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  tar  zxvf  prebuilt-imx6qdl-bootfile-update-xxx.tar.gz
-$ sudo  <span class="nb">cd</span>  prebuilt-imx6qdl-bootfile-update-xxx
-$ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</span>     // resolution
+<dt>Use the following commands to make bootable TF card.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>tar<span class="w">  </span>zxvf<span class="w">  </span>prebuilt-imx6qdl-bootfile-update-xxx.tar.gz
+$<span class="w"> </span>sudo<span class="w">  </span><span class="nb">cd</span><span class="w">  </span>prebuilt-imx6qdl-bootfile-update-xxx
+$<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="w">  </span>--device<span class="w">  </span>/dev/sdX<span class="w"> </span>--display<span class="w"> </span><span class="m">1024600</span><span class="w">     </span>//<span class="w"> </span>resolution
 </pre></div>
 </div>
 </dd>
@@ -1812,14 +1842,14 @@ $ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</spa
 </section>
 </section>
 <section id="development">
-<h2 id="development">Development<a class="headerlink" href="#development" title="Permalink to this headline">¶</a></h2>
+<h2 id="development">Development<a class="headerlink" href="#development" title="Permalink to this heading">¶</a></h2>
 <p>In this chapter, you will learn how to set up the Python3 and QT development environment, and develop the first QT application on Chipsee IPC boards.</p>
 <section id="python">
-<h3 id="python">Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h3>
+<h3 id="python">Python<a class="headerlink" href="#python" title="Permalink to this heading">¶</a></h3>
 <p>In this example, we will develop one Python3 GUI application.</p>
 <ul>
 <li><dl>
-<dt>First, you must install the Tkinter package using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install python3-tk
+<dt>First, you must install the Tkinter package using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>python3-tk
 </pre></div>
 </div>
 </dd>
@@ -1854,7 +1884,7 @@ $ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</spa
 </dl>
 </li>
 <li><dl>
-<dt>Save the file. Run it using this command.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ python3 hello_world.py
+<dt>Save the file. Run it using this command.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>python3<span class="w"> </span>hello_world.py
 </pre></div>
 </div>
 <figure class="align-center" id="id46">
@@ -1869,30 +1899,30 @@ $ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</spa
 </ul>
 </section>
 <section id="qt-environment">
-<h3 id="qt-environment">Qt Environment<a class="headerlink" href="#qt-environment" title="Permalink to this headline">¶</a></h3>
+<h3 id="qt-environment">Qt Environment<a class="headerlink" href="#qt-environment" title="Permalink to this heading">¶</a></h3>
 <p>There is no Qt environment and build environment in this system, you need to install Qt and set a build environment first. Then we will develop one Qt application.</p>
 <ul>
 <li><dl>
-<dt>Use the following command to prepare and set the Qt Environment.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get update
-$ sudo apt-get install build-essential git libudev-dev
-$ sudo apt-get install qt5-default // or qt4-default <span class="k">if</span> you want to use qt4
-$ sudo apt-get clean
+<dt>Use the following command to prepare and set the Qt Environment.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>build-essential<span class="w"> </span>git<span class="w"> </span>libudev-dev
+$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>qt5-default<span class="w"> </span>//<span class="w"> </span>or<span class="w"> </span>qt4-default<span class="w"> </span><span class="k">if</span><span class="w"> </span>you<span class="w"> </span>want<span class="w"> </span>to<span class="w"> </span>use<span class="w"> </span>qt4
+$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>clean
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>We use <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Demos/hardwaretest_serial_ok_20170223.tar.gz">hardwaretest_serial</a>  to demonstrate this development exercise. To perform this demo, we need to install <code class="docutils literal notranslate"><span class="pre">qtserialport</span></code> support first using this commands:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~
-$ git clone git://code.qt.io/qt/qtserialport.git
-$ <span class="nb">cd</span> qtserialport
-$ git checkout <span class="m">5</span>.3    // <span class="k">for</span> qt4 is “git checkout qt4-dev”
-$ <span class="nb">cd</span> ../
-$ mkdir qtserialport-build
-$ <span class="nb">cd</span> qtserialport-build
-$ qmake ../ qtserialport/qtserialport.pro
-$ make
-$ sudo make install
+<dt>We use <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Demos/hardwaretest_serial_ok_20170223.tar.gz">hardwaretest_serial</a>  to demonstrate this development exercise. To perform this demo, we need to install <code class="docutils literal notranslate"><span class="pre">qtserialport</span></code> support first using this commands:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>~
+$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>git://code.qt.io/qt/qtserialport.git
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>qtserialport
+$<span class="w"> </span>git<span class="w"> </span>checkout<span class="w"> </span><span class="m">5</span>.3<span class="w">    </span>//<span class="w"> </span><span class="k">for</span><span class="w"> </span>qt4<span class="w"> </span>is<span class="w"> </span>“git<span class="w"> </span>checkout<span class="w"> </span>qt4-dev”
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>../
+$<span class="w"> </span>mkdir<span class="w"> </span>qtserialport-build
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>qtserialport-build
+$<span class="w"> </span>qmake<span class="w"> </span>../<span class="w"> </span>qtserialport/qtserialport.pro
+$<span class="w"> </span>make
+$<span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 </pre></div>
 </div>
 </dd>
@@ -1903,17 +1933,17 @@ $ sudo make install
 <p>Now we are in Chipsee IPC Debian system console.</p>
 <ul>
 <li><dl>
-<dt>Use the following command to build the Qt application:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar zxvf hardwaretest_serial_ok_20170223.tar.gz
-$ <span class="nb">cd</span> hardwaretest_serial
-$ qmake
-$ make
+<dt>Use the following command to build the Qt application:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tar<span class="w"> </span>zxvf<span class="w"> </span>hardwaretest_serial_ok_20170223.tar.gz
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>hardwaretest_serial
+$<span class="w"> </span>qmake
+$<span class="w"> </span>make
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Modify the permission of the serial ports device node</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo chmod <span class="m">666</span> /dev/ttymxc*
+<dt>Modify the permission of the serial ports device node</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>chmod<span class="w"> </span><span class="m">666</span><span class="w"> </span>/dev/ttymxc*
 </pre></div>
 </div>
 </dd>
@@ -1921,9 +1951,9 @@ $ make
 </li>
 <li><dl>
 <dt>Run the <code class="docutils literal notranslate"><span class="pre">hardwaretest_serial</span></code> app using this command:</dt><dd><blockquote>
-<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> hardwaretest_serial
-$ <span class="nb">export</span> <span class="nv">DISPLAY</span><span class="o">=</span>:0
-$ ./hardwaretest_serial
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>hardwaretest_serial
+$<span class="w"> </span><span class="nb">export</span><span class="w"> </span><span class="nv">DISPLAY</span><span class="o">=</span>:0
+$<span class="w"> </span>./hardwaretest_serial
 </pre></div>
 </div>
 </div></blockquote>
@@ -1940,16 +1970,16 @@ $ ./hardwaretest_serial
 </section>
 </section>
 <section id="q-a">
-<h2 id="q-a">Q&amp;A<a class="headerlink" href="#q-a" title="Permalink to this headline">¶</a></h2>
+<h2 id="q-a">Q&amp;A<a class="headerlink" href="#q-a" title="Permalink to this heading">¶</a></h2>
 <p>In this chapter, you can learn how to set up the QT development environment, and develop the first QT application on Chipsee IPC boards.</p>
 <section id="how-to-rotate-the-display">
-<h3 id="how-to-rotate-the-display">How to rotate the display<a class="headerlink" href="#how-to-rotate-the-display" title="Permalink to this headline">¶</a></h3>
+<h3 id="how-to-rotate-the-display">How to rotate the display<a class="headerlink" href="#how-to-rotate-the-display" title="Permalink to this heading">¶</a></h3>
 <p>Modify <cite>/etc/X11/xorg.conf</cite> and <cite>/usr/share/X11/xorg.conf.d/10-evdev.conf</cite> to rotate the display and touchscreen. If the files do not exist, please create a new one.</p>
 <ul>
 <li><dl>
-<dt><cite>/etc/X11/xorg.conf</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Section <span class="s2">"Device"</span>
-        Identifier      <span class="s2">"Builtin Default fbdev Device 0"</span>
-        Driver          <span class="s2">"fbdev"</span>
+<dt><cite>/etc/X11/xorg.conf</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Section<span class="w"> </span><span class="s2">"Device"</span>
+<span class="w">        </span>Identifier<span class="w">      </span><span class="s2">"Builtin Default fbdev Device 0"</span>
+<span class="w">        </span>Driver<span class="w">          </span><span class="s2">"fbdev"</span>
 <span class="c1">#       Option          "Rotate" "CW"   // 90°</span>
 <span class="c1">#       Option          "Rotate" "UD"   // 180°</span>
 <span class="c1">#       Option          "Rotate" "CCW"   // 270°</span>
@@ -1960,10 +1990,10 @@ EndSection
 </dl>
 </li>
 <li><dl>
-<dt><cite>/usr/share/X11/xorg.conf.d/10-evdev.conf</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Section <span class="s2">"InputClass"</span>
-        Identifier <span class="s2">"evdev touchscreen catchall"</span>
-        MatchIsTouchscreen <span class="s2">"on"</span>
-        MatchDevicePath <span class="s2">"/dev/input/event*"</span>
+<dt><cite>/usr/share/X11/xorg.conf.d/10-evdev.conf</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Section<span class="w"> </span><span class="s2">"InputClass"</span>
+<span class="w">        </span>Identifier<span class="w"> </span><span class="s2">"evdev touchscreen catchall"</span>
+<span class="w">        </span>MatchIsTouchscreen<span class="w"> </span><span class="s2">"on"</span>
+<span class="w">        </span>MatchDevicePath<span class="w"> </span><span class="s2">"/dev/input/event*"</span>
 <span class="c1">#90°</span>
 <span class="c1">#       Option "SwapAxes" "True"         //Swap X Axes and Y Axes</span>
 <span class="c1">#       Option "InvertY" "True"           //Invert Y Axes</span>
@@ -1974,7 +2004,7 @@ EndSection
 <span class="c1">#       Option "SwapAxes" "True"         //Swap X Axes and Y Axes</span>
 <span class="c1">#       Option "InvertX" "True"           //Invert X Axes</span>
 
-        Driver <span class="s2">"evdev"</span>
+<span class="w">        </span>Driver<span class="w"> </span><span class="s2">"evdev"</span>
 EndSection
 </pre></div>
 </div>
@@ -1984,7 +2014,7 @@ EndSection
 </ul>
 </section>
 <section id="how-to-disable-the-screensaver">
-<h3 id="how-to-disable-the-screensaver">How to disable the Screensaver<a class="headerlink" href="#how-to-disable-the-screensaver" title="Permalink to this headline">¶</a></h3>
+<h3 id="how-to-disable-the-screensaver">How to disable the Screensaver<a class="headerlink" href="#how-to-disable-the-screensaver" title="Permalink to this heading">¶</a></h3>
 <p>Open the Screensaver Setting dialog, as shown on the figure below.</p>
 <figure class="align-center" id="id48">
 <img alt="../../../../../_images/qa_1.jpeg" src="../../../../../_images/qa_1.jpeg"/>
@@ -2000,20 +2030,20 @@ EndSection
 </figure>
 </section>
 <section id="autostart-application-after-boot">
-<h3 id="autostart-application-after-boot">Autostart Application after Boot<a class="headerlink" href="#autostart-application-after-boot" title="Permalink to this headline">¶</a></h3>
+<h3 id="autostart-application-after-boot">Autostart Application after Boot<a class="headerlink" href="#autostart-application-after-boot" title="Permalink to this heading">¶</a></h3>
 <p>We will autostart the Python <code class="docutils literal notranslate"><span class="pre">hello_world.py</span></code> app from <a class="reference internal" href="#python">Python</a>.</p>
 <ul class="simple">
 <li><p>Change the mode for <code class="docutils literal notranslate"><span class="pre">hello_world.py</span></code> and copy it to <cite>/usr/local/bin</cite>：</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo chmod a+x hello_world.py
-$ sudo cp test.py /usr/local/bin/
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>chmod<span class="w"> </span>a+x<span class="w"> </span>hello_world.py
+$<span class="w"> </span>sudo<span class="w"> </span>cp<span class="w"> </span>test.py<span class="w"> </span>/usr/local/bin/
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Put <code class="docutils literal notranslate"><span class="pre">hello_world.py</span></code> in LXDE autostart file, using this command:</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Autostart File：/home/chipsee/.config/lxsession/LXDE/autostart
-Add follow to the end of autostart file.
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Autostart<span class="w"> </span>File：/home/chipsee/.config/lxsession/LXDE/autostart
+Add<span class="w"> </span>follow<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>end<span class="w"> </span>of<span class="w"> </span>autostart<span class="w"> </span>file.
 
 @test.py
 </pre></div>
@@ -2024,7 +2054,7 @@ Add follow to the end of autostart file.
 </section>
 </section>
 <section id="technical-support">
-<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this headline">¶</a></h2>
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
 <p>Please feel free to contact us with any questions, queries or suggestions.</p>
 <p>If your question is related to technical support or troubleshooting for one of our products, we kindly ask you to check our documentation for a possible solution first.</p>
 <p>If you still cannot find the solution you are looking for, please write to Chipsee Technical Support at <a class="reference external" href="mailto:service%40chipsee.com"><strong>service<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information.</p>
@@ -2095,7 +2125,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Jul 19, 2022.
+              Mar 06, 2023.
             <br/>
         </div>
       </div>

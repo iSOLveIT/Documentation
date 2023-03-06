@@ -1,4 +1,4 @@
-.. |product| replace:: EPC/PPC-CM4-70
+.. |product| replace:: EPC/PPC-CM4-070
 
 .. |productE| replace:: CS10600RA4070E
 
@@ -20,9 +20,9 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive a touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dimE| replace:: 190 x 107.8 x 27.7mm
+.. |dimE| replace:: 190 x 108 x 28mm
 
-.. |dimP| replace:: 206 x 135 x 30.1mm
+.. |dimP| replace:: 206 x 135 x 30mm
 
 .. |weightE| replace:: 400g
 
@@ -30,13 +30,13 @@
 
 .. |tscreen| replace:: 5-point capacitive touch
 
-.. |USB| replace:: 2 x USB 2.0 Host, 1 x USB OTG
+.. |USB| replace:: 2 x USB 2.0 Host, 1 x miniUSB OTG
 
 .. |LAN| replace:: 1 x Channel Giga LAN
 
 .. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
 
-.. |hdmi_des| replace:: 1 Channel, not mounted by default
+.. |hdmi_des| replace:: Yes
 
 .. |sata_des| replace:: Not Supported
 
@@ -44,7 +44,7 @@
 
 .. |opt2| replace:: Supported but depending on the CM4 selected
 
-.. |vin_rng| replace:: From 6V to 36V
+.. |vin_rng| replace:: From 9V to 36V
 
 .. |cur| replace:: 420mA Max
 
@@ -54,10 +54,10 @@
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-70/
 
-.. |product_link| replace:: EPC/PPC-CM4-70
+.. |product_link| replace:: EPC/PPC-CM4-070
 
 
-.. _EPC/PPC-CM4-70:
+.. _EPC/PPC-CM4-070:
 
 |product|
 #########
@@ -151,8 +151,8 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial Pi PC. It has |USB| (can be customized to Host or OTG), |LAN| (RJ45) Ethernet connector supporting up to
-1 Gbps, and 5 x UART terminals (RS232/RS485/CAN).
+There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
+1 Gbps, and 4 x UART terminals (RS232/RS485/CAN).
 
 RS232/RS485/CAN
 ---------------
@@ -251,7 +251,7 @@ There are 2 x Type A **USB HOST connectors** onboard, as shown on the figure bel
 
 The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
 
-.. Figure:: /Media/Pi/A72/Others/USB_OTG.jpeg
+.. Figure:: /Media/Pi/A72/CS10600RA4070/OTG_V2.jpg
   :align: center
   :figclass: align-center
 
@@ -273,9 +273,9 @@ The product has one USB OTG connector that works as a slave by default. You can 
 
 .. include:: Resources/TF_Card
 
-.. include:: Resources/Audio_IO
+.. include:: Resources/Audio_IO_cs10600ra4070_v2
 
-.. include:: Resources/Boot_SW
+.. include:: Resources/Boot_SW_cs10600ra4070_v2
 
 .. include:: Resources/mounting
 

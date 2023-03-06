@@ -6,7 +6,7 @@
 
 .. |dispsize| replace:: 19"
 
-.. |res| replace:: 1280×1024 (4:3)
+.. |res| replace:: 1440×900 (4:3)
 
 .. |bright| replace:: 250 |cd|
 
@@ -33,6 +33,8 @@
 .. |mount| replace:: VESA, MIS-D, 100, C
 
 .. |pwr| replace:: ≤ 16W
+
+.. |vin_rng| replace:: 9V - 30V
 
 .. |standby| replace:: ≤ 2W
 
