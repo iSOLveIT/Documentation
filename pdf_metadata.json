@@ -262,6 +262,12 @@
         "PCs/ARM/RK3568/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/RK3568/Manuals/Software/Android_11": {},
+        "PCs/ARM/RK3568/Manuals/Software/Buildroot_Linux_Qt_5_15": {},
+        "PCs/ARM/RK3568/Manuals/Software/Debian_11": {},
+        "PCs/ARM/RK3568/Manuals/Software/index": {},
+        "PCs/ARM/RK3568/OS_Downloads/CS10600-RK3568-070P": {},
+        "PCs/ARM/RK3568/OS_Downloads/CS12720-RK3568-050P": {},
         "PCs/ARM/RK3568/OS_Downloads/CS12800-RK3568-101P": {
             "pdf-build": "False"
         },
@@ -370,7 +376,7 @@
         "PCs/ARM/index": {
             "pdf-build": "False"
         },
-        "PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-X30A": {
+        "PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900": {
             "pdf-build": "False"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-101-C": {
