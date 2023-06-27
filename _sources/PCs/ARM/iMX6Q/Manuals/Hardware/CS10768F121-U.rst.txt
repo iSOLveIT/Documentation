@@ -1,6 +1,3 @@
-:pdf-build: False
-
-
 .. |product| replace:: PPC-A9-121-U-C
 
 .. |PN| replace:: PN: CS10768F121-U
@@ -47,12 +44,10 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
-    :class: html-only
+.. rubric:: *Version 1.0*
 
 .. You must add the `product-img img-thumbnail mx-auto d-block` word
 .. to the image class directive in order for the thumbnail feature to work
-.. You must add `html-only` to the div under the raw directive to hide the div in the PDF output
 
 .. raw:: html
 
@@ -217,8 +212,6 @@ The polarity and the pinout is clearly marked on the housing of the product as s
   *Power Input*
 
 Note that the "**+**" sign represents the positive power input, and it is printed both at the casing and as a silk-screen on a PCB of the embedded version. The "**-**" terminal is shorted to the ground.
-
-.. _power-table:
 
 .. table:: Power Connector
    :align: center
@@ -389,4 +382,4 @@ product measurements.
 
    *Technical Drawing*
 
-.. include:: PPC_Resources/support
+.. include:: /PCs/Shared/support

@@ -1,6 +1,3 @@
-:pdf-build: False
-
-
 .. |product| replace:: PPC-CM4-050
 
 .. |productE| replace:: NULL
@@ -65,12 +62,10 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
-    :class: html-only
+.. rubric:: *Version 1.0*
 
 .. You must add the `product-img img-thumbnail mx-auto d-block` word
 .. to the image class directive in order for the thumbnail feature to work
-.. You must add `html-only` to the div under the raw directive to hide the div in the PDF output
 
 .. raw:: html
 
@@ -227,7 +222,7 @@ The product has one USB Type-C connector that works as a slave by default. You c
 LAN Connectors
 ---------------
 
-**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports
+**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown in the figure below. The integrated Ethernet interface supports
 up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module directly.
 
 .. figure:: /Media/Pi/A72/CS12720RA4050-C121/LAN.png
@@ -341,4 +336,4 @@ product measurements.
    |productP| *Technical Drawing*
 
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support
