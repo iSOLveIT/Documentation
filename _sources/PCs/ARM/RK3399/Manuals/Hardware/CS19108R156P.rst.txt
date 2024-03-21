@@ -4,7 +4,7 @@
 
 .. |productP| replace:: PPC-A72-156-P
 
-.. |PN| replace:: PN: CS19108R156P
+.. |PN| replace:: PN: CS19108R156P2
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
@@ -18,7 +18,7 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 422 × 271 × 52.5mm
+.. |dimP| replace:: 400 × 256 × 52.5mm
 
 .. |weightE| replace:: NULL
 
@@ -42,7 +42,7 @@
 
 .. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: 2.2A Max
+.. |cur| replace:: 2.2A Max(15V)
 
 .. |pwr| replace:: 16W Typical, 26.4W Max
 
@@ -92,6 +92,11 @@
                   :align: middle
                   :width: 192
                   
+.. _product_link: https://chipsee.com/product/ppc-a72-156-p/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-Front.png
 
 .. |Front View| image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-Front.jpg
                   :class: product-img
@@ -147,6 +152,15 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
+
+.. image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-TD.png
+   :align: center
+   :alt: TD
+   :width: 1024
+   
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

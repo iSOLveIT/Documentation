@@ -18,13 +18,13 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 422 × 271 × 52.5mm
+.. |dimP| replace:: 400 × 256 × 52.5mm
 
 .. |weightE| replace:: NULL
 
 .. |weightP| replace:: 4500g
 
-.. |cur| replace:: 1400mA Max
+.. |cur| replace:: 1400mA Max at 12V
 
 .. |pwr| replace:: 17W Typical
 
@@ -90,7 +90,9 @@
 .. |lan_img| image:: /Media/Pi/A72/CS19108RA4133/LANbig.jpg
                   :align: middle
                   :width: 384
-                  
+      
+.. |Cover PNG| image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-Front.jpg
                   :class: product-img
 
@@ -114,5 +116,14 @@
 .. include:: Resources/CS12800RA4101/base_includes_cs12800ra4101
 
 .. include:: Resources/mechanical
+
+.. image:: /Media/Pi/A72/CS19108RA4156/CS19108RA4156-TD.png
+   :align: center
+   :alt: TD
+   :width: 1024
+
+:pagebreak:`True`
+   
+.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

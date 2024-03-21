@@ -28,7 +28,13 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |Front View| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Front.png
+.. _product_link: https://chipsee.com/product/ppc-j6412-236-c/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Front.png
+
+.. |Front View| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Front.jpg
                   :class: product-img
 
 .. |Rear View| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Rear.jpg
@@ -87,5 +93,7 @@
       :width: 1024
 
     *Technical Drawing and Cutout Dimensions*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support                  

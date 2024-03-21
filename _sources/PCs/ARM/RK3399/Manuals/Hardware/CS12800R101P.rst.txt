@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC-A72-101-C
+.. |product| replace:: PPC-A72-101
 
 .. |productP| replace:: PPC-A72-101
 
@@ -42,7 +42,7 @@
 
 .. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: 700mA Max
+.. |cur| replace:: 700mA Max(15V)
 
 .. |pwr| replace:: 12W Typical
 
@@ -52,6 +52,11 @@
 
 .. |rs485| replace:: 2 x RS485
 
+.. _product_link: https://chipsee.com/product/ppc-a72-101/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Front.png
 
 .. |Front View| image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Front.jpeg
                   :class: product-img
@@ -119,6 +124,8 @@ There are 2 x **USB HOST connectors** onboard which includes |USB|
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
 
+:pagebreak:`True`
+
 .. include:: Resources/LAN
 
 .. include:: Resources/WiFi_BT
@@ -153,11 +160,17 @@ You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, a
 You can find detailed information about mounting in the |mguide|.
 
 
+:pagebreak:`True`
+
 Mechanical Specifications
 =========================
 
 |productP|
 ----------
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

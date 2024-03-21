@@ -42,7 +42,7 @@
 
 .. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: 1.7A Max
+.. |cur| replace:: 1.7A Max(15V)
 
 .. |pwr| replace:: 20W Typical
 
@@ -91,6 +91,12 @@
 .. |Power_btn_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-PowerBtn.jpg
                   :align: middle
                   :width: 384
+
+.. _product_link: https://chipsee.com/product/ppc-a72-150-c/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Front.png
 
 .. |Front View| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Front.jpg
                   :class: product-img
@@ -146,6 +152,10 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

@@ -28,6 +28,12 @@
 
 .. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels
 
+.. _product_link: https://chipsee.com/product/ppc-j6412-104-r/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/Intel/J6412/PPC-J6412-104-R/PPC-J6412-104-R-Front.png
+
 .. |Front View| image:: /Media/Intel/J6412/PPC-J6412-104-R/PPC-J6412-104-R-Front.jpg
                   :class: product-img
 
@@ -87,5 +93,7 @@
       :width: 1024
 
     *Technical Drawing and Cutout Dimensions*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support                  

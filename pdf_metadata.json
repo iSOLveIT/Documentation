@@ -6,7 +6,7 @@
         "debug_target": null,
         "author": "Chipsee",
         "author_logo": "_static/images/logo-chipsee-white.png",
-        "copyright": "2023, Chipsee",
+        "copyright": "2024, Chipsee",
         "disclaimer": "Content can change at anytime. It's best to refer to website for latest information.",
         "cover": true,
         "cover_title": "Chipsee Documentation Sample",
@@ -57,9 +57,9 @@
             "pdf-revision": "1.1"
         },
         "Displays/PIM-156-C-P": {
-            "pdf-title": "PIM-156-C-P",
+            "pdf-title": "PIM-156-P",
             "pdf-subtitle": "PN: CS-D156P",
-            "pdf-filename": "PIM-156-C-P",
+            "pdf-filename": "PIM-156-P",
             "pdf-type": "displays",
             "pdf-revision": "1.1"
         },
@@ -145,8 +145,14 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80480T070": {
-            "pdf-title": "PPC/EPC-A8-070-HB-R",
+            "pdf-title": "PPC/EPC-A8-070-R",
             "pdf-subtitle": "PN: CS80480T070",
+            "pdf-filename": "PPC/EPC-A8-070-R",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/AM335X/Manuals/Hardware/CS80480T070-R233": {
+            "pdf-title": "PPC/EPC-A8-070-HB-R",
+            "pdf-subtitle": "PN: CS80480T070-R233",
             "pdf-filename": "PPC/EPC-A8-070-HB-R",
             "pdf-type": "ipc"
         },
@@ -207,6 +213,10 @@
         "PCs/ARM/AM335X/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/AM335X/index": {
+            "pdf-build": "False",
+            "orphan": ""
+        },
         "PCs/ARM/PX30/AIO/Manuals/Hardware/CS12800PX101A": {
             "pdf-title": "AIO-PX30-101",
             "pdf-subtitle": "PN: CS12800PX101A",
@@ -215,6 +225,18 @@
         },
         "PCs/ARM/PX30/AIO/Manuals/Hardware/index": {
             "pdf-build": "False"
+        },
+        "PCs/ARM/PX30/AIO/Manuals/Software/Buildroot_Linux_Qt_5_14": {
+            "pdf-title": "Buildroot Linux Qt 5.14 OS on PX30 User Manual",
+            "pdf-subtitle": "For PX30 Products",
+            "pdf-filename": "Buildroot Linux Qt 5.14 OS on PX30 User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/PX30/AIO/Manuals/Software/Debian_10": {
+            "pdf-title": "Debian 10 OS on PX30 User Manual",
+            "pdf-subtitle": "For PX30 Products",
+            "pdf-filename": "Debian 10 OS on PX30 User Manual",
+            "pdf-type": "ipc"
         },
         "PCs/ARM/PX30/AIO/Manuals/Software/index": {
             "pdf-build": "False"
@@ -231,6 +253,12 @@
             "pdf-filename": "EPC/PPC-A72-070-C",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS10768R121P": {
+            "pdf-title": "PPC-A72-121-P",
+            "pdf-subtitle": "PN: CS10768R121P",
+            "pdf-filename": "PPC-A72-121-P",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3399/Manuals/Hardware/CS10768R150": {
             "pdf-title": "PPC-A72-150-C",
             "pdf-subtitle": "PN: CS10768R150",
@@ -243,6 +271,18 @@
             "pdf-filename": "PPC-A72-150-P",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS12102R170P": {
+            "pdf-title": "PPC-A72-170-C",
+            "pdf-subtitle": "PN: CS12102R170P",
+            "pdf-filename": "PPC-A72-170-C",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P": {
+            "pdf-title": "PPC-A72-190-C",
+            "pdf-subtitle": "PN: CS12102R190P",
+            "pdf-filename": "PPC-A72-190-C",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3399/Manuals/Hardware/CS12800R101": {
             "pdf-title": "EPC/PPC-A72-101-C",
             "pdf-subtitle": "PN: CS12800R101",
@@ -250,9 +290,9 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS12800R101P": {
-            "pdf-title": "PPC-A72-101-C",
+            "pdf-title": "PPC-A72-101",
             "pdf-subtitle": "PN: CS12800R101P",
-            "pdf-filename": "PPC-A72-101-C",
+            "pdf-filename": "PPC-A72-101",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R125": {
@@ -263,25 +303,25 @@
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R133": {
             "pdf-title": "PPC-A72-133-C",
-            "pdf-subtitle": "PN: CS19108R133",
+            "pdf-subtitle": "PN: CS19108R133P",
             "pdf-filename": "PPC-A72-133-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R133P": {
             "pdf-title": "PPC-A72-133-P",
-            "pdf-subtitle": "PN: CS19108R133P",
+            "pdf-subtitle": "PN: CS19108R133P2",
             "pdf-filename": "PPC-A72-133-P",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R156": {
             "pdf-title": "PPC-A72-156-C",
-            "pdf-subtitle": "PN: CS19108R156",
+            "pdf-subtitle": "PN: CS19108R156P",
             "pdf-filename": "PPC-A72-156-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R156P": {
             "pdf-title": "PPC-A72-156-P",
-            "pdf-subtitle": "PN: CS19108R156P",
+            "pdf-subtitle": "PN: CS19108R156P2",
             "pdf-filename": "PPC-A72-156-P",
             "pdf-type": "ipc"
         },
@@ -291,9 +331,15 @@
             "pdf-filename": "PPC-A72-173-C",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R185P": {
+            "pdf-title": "PPC-A72-185-C",
+            "pdf-subtitle": "PN: CS19108R185P",
+            "pdf-filename": "PPC-A72-185-C",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R215": {
             "pdf-title": "PPC-A72-215-C",
-            "pdf-subtitle": "PN: CS19108R215",
+            "pdf-subtitle": "PN: CS19108R215P",
             "pdf-filename": "PPC-A72-215-C",
             "pdf-type": "ipc"
         },
@@ -310,6 +356,27 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Software/Buildroot_Linux_Qt_5_14": {
+            "pdf-title": "Buildroot Linux Qt 5.14 OS on RK3399 User Manual",
+            "pdf-subtitle": "For RK3399 Products",
+            "pdf-filename": "Buildroot Linux Qt 5.14 OS on RK3399 User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3399/Manuals/Software/Debian_10": {
+            "pdf-title": "Debian 10 OS on RK3399 User Manual",
+            "pdf-subtitle": "For RK3399 Products",
+            "pdf-filename": "Debian 10 OS on RK3399 User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3399/Manuals/Software/Debian_11": {
+            "pdf-title": "Debian 11 OS on RK3399 User Manual",
+            "pdf-subtitle": "For RK3399 Products",
+            "pdf-filename": "Debian 11 OS on RK3399 User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3399/Manuals/Software/index": {
             "pdf-build": "False"
         },
         "PCs/ARM/RK3399/OS_Downloads/CS10600R070": {
@@ -333,16 +400,40 @@
         "PCs/ARM/RK3399/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS-RK3568-BOX": {
+            "pdf-title": "CS-A55-BOX",
+            "pdf-subtitle": "PN: CS-RK3568-BOX",
+            "pdf-filename": "CS-A55-BOX",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3568/Manuals/Hardware/CS10600-RK3568-070P": {
             "pdf-title": "PPC-A55-070",
             "pdf-subtitle": "PN: CS10600-RK3568-070P",
             "pdf-filename": "PPC-A55-070",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS10768-RK3568-121P": {
+            "pdf-title": "PPC-A55-121",
+            "pdf-subtitle": "PN: CS10768-RK3568-121P",
+            "pdf-filename": "PPC-A55-121",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3568/Manuals/Hardware/CS10768-RK3568-150P": {
             "pdf-title": "PPC-A55-150",
             "pdf-subtitle": "PN: CS10768-RK3568-150P",
             "pdf-filename": "PPC-A55-150",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS12102-RK3568-170P": {
+            "pdf-title": "PPC-A55-170",
+            "pdf-subtitle": "PN: CS12102-RK3568-170P",
+            "pdf-filename": "PPC-A55-170",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS12102-RK3568-190P": {
+            "pdf-title": "PPC-A55-190",
+            "pdf-subtitle": "PN: CS12102-RK3568-190P",
+            "pdf-filename": "PPC-A55-190",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS12720-RK3568-050P": {
@@ -373,6 +464,12 @@
             "pdf-title": "PPC-A55-156",
             "pdf-subtitle": "PN: CS19108-RK3568-156P",
             "pdf-filename": "PPC-A55-156",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-185P": {
+            "pdf-title": "PPC-A55-185",
+            "pdf-subtitle": "PN: CS19108-RK3568-185P",
+            "pdf-filename": "PPC-A55-185",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-236P": {
@@ -412,6 +509,12 @@
             "pdf-build": "False"
         },
         "PCs/ARM/RK3568/OS_Downloads/CS12800-RK3568-101P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/OS_Downloads/CS19108-RK3568-133P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/OS_Downloads/CS19108-RK3568-156P": {
             "pdf-build": "False"
         },
         "PCs/ARM/RK3568/OS_Downloads/index": {
@@ -567,8 +670,52 @@
         "PCs/ARM/iMX6UL/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/iMX8MP/Manuals/Hardware/CS-IMX8MP-BOX": {
+            "pdf-title": "CS-A53-BOX",
+            "pdf-subtitle": "PN: CS-IMX8MP-BOX",
+            "pdf-filename": "CS-A53-BOX",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/iMX8MP/Manuals/Hardware/CS10600-IMX8MP-070P": {
+            "pdf-title": "PPC-A53-070",
+            "pdf-subtitle": "PN: CS10600-IMX8MP-070P",
+            "pdf-filename": "PPC-A53-070",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/iMX8MP/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX8MP/Manuals/Software/Android_12": {
+            "pdf-title": "Android 12 OS on i.MX8MP User Manual",
+            "pdf-subtitle": "For i.MX8MP Products",
+            "pdf-filename": "Android 12 OS on i.MX8MP User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/iMX8MP/Manuals/Software/Yocto_Linux_QT_6_3": {
+            "pdf-title": "Yocto Linux Qt 6.3 OS on i.MX8MP User Manual",
+            "pdf-subtitle": "For i.MX8MP Products",
+            "pdf-filename": "Yocto Linux Qt 6.3 OS on i.MX8MP User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/iMX8MP/Manuals/Software/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX8MP/OS_Downloads/CS10600-IMX8MP-070P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX8MP/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
         "PCs/ARM/index": {
             "pdf-build": "False"
+        },
+        "PCs/ARM/index-nxp": {
+            "pdf-build": "False",
+            "orphan": ""
+        },
+        "PCs/ARM/index-rockchip": {
+            "pdf-build": "False",
+            "orphan": ""
         },
         "PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900": {
             "pdf-title": "CS86-BOX-J1900",
@@ -663,6 +810,12 @@
             "pdf-filename": "PPC-J6412-150-C",
             "pdf-type": "ipc"
         },
+        "PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-156-C": {
+            "pdf-title": "PPC-J6412-156-C",
+            "pdf-subtitle": "PN: PPC-J6412-156-C",
+            "pdf-filename": "PPC-J6412-156-C",
+            "pdf-type": "ipc"
+        },
         "PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-170-R": {
             "pdf-title": "PPC-J6412-170-R",
             "pdf-subtitle": "PN: PPC-J6412-170-R",
@@ -708,6 +861,36 @@
         "PCs/Intel/index": {
             "pdf-build": "False"
         },
+        "PCs/MTK/MT6737/Manuals/Hardware/HPC-MT6737-035": {
+            "pdf-title": "HPC-MT6737-035",
+            "pdf-subtitle": "PN: HPC-MT6737-035",
+            "pdf-filename": "HPC-MT6737-035",
+            "pdf-type": "ipc"
+        },
+        "PCs/MTK/MT6737/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/MTK/MT6762/Manuals/Hardware/HPC-MT6762-057": {
+            "pdf-title": "HPC-MT6762-057",
+            "pdf-subtitle": "PN: HPC-MT6762-057",
+            "pdf-filename": "HPC-MT6762-057",
+            "pdf-type": "ipc"
+        },
+        "PCs/MTK/MT6762/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/MTK/MT6771/Manuals/Hardware/HPC-MT6771-080": {
+            "pdf-title": "HPC-MT6771-080",
+            "pdf-subtitle": "PN: HPC-MT6771-080",
+            "pdf-filename": "HPC-MT6771-080",
+            "pdf-type": "ipc"
+        },
+        "PCs/MTK/MT6771/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/MTK/index": {
+            "pdf-build": "False"
+        },
         "PCs/Pi/A53/Manuals/Hardware/CS10600RA070": {
             "pdf-title": "EPC/PPC-CM3-070",
             "pdf-subtitle": "PN: CS10600RA070",
@@ -747,6 +930,18 @@
             "pdf-filename": "PPC-CM4-150",
             "pdf-type": "ipc"
         },
+        "PCs/Pi/A72/Manuals/Hardware/CS12102RA4170": {
+            "pdf-title": "PPC-CM4-170",
+            "pdf-subtitle": "PN: CS12102RA4170",
+            "pdf-filename": "PPC-CM4-170",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS12102RA4190": {
+            "pdf-title": "PPC-CM4-190",
+            "pdf-subtitle": "PN: CS12102RA4190",
+            "pdf-filename": "PPC-CM4-190",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/A72/Manuals/Hardware/CS12720RA4050": {
             "pdf-title": "EPC/PPC-CM4-050",
             "pdf-subtitle": "PN: CS12720RA4050",
@@ -783,10 +978,22 @@
             "pdf-filename": "PPC-CM4-215",
             "pdf-type": "ipc"
         },
+        "PCs/Pi/A72/Manuals/Hardware/CS19108RA4215-KK": {
+            "pdf-title": "KIOSK-CM4-215",
+            "pdf-subtitle": "PN: CS19108RA4215-KK",
+            "pdf-filename": "KIOSK-CM4-215",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/A72/Manuals/Hardware/CS19108RA4236": {
             "pdf-title": "PPC-CM4-236",
             "pdf-subtitle": "PN: CS19108RA4236",
             "pdf-filename": "PPC-CM4-236",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CSRA4BOX": {
+            "pdf-title": "CS-CM4-BOX",
+            "pdf-subtitle": "PN: CSRA4BOX",
+            "pdf-filename": "CS-CM4-BOX",
             "pdf-type": "ipc"
         },
         "PCs/Pi/A72/Manuals/Hardware/index": {
@@ -814,15 +1021,15 @@
             "pdf-type": "ipc"
         },
         "PCs/Pi/Software/AIO156StartGuide": {
-            "pdf-title": "Debian OS on AIO CM4 User Manual",
+            "pdf-title": "Raspberry Pi OS OS on AIO CM4 User Manual",
             "pdf-subtitle": "For AIO CM4 Products",
-            "pdf-filename": "Debian OS on AIO CM4 User Manual",
+            "pdf-filename": "Raspberry Pi OS OS on AIO CM4 User Manual",
             "pdf-type": "ipc"
         },
         "PCs/Pi/Software/Debian": {
-            "pdf-title": "Debian 10 (buster) OS on CM4 User Manual",
+            "pdf-title": "Raspberry Pi OS on CM4 User Manual",
             "pdf-subtitle": "For CM4 Products",
-            "pdf-filename": "Debian 10 (buster) OS on CM4 User Manual",
+            "pdf-filename": "Raspberry Pi OS on CM4 User Manual",
             "pdf-type": "ipc"
         },
         "PCs/Pi/Software/index": {
@@ -834,10 +1041,8 @@
         "PCs/index": {
             "pdf-build": "False"
         },
-        "SOM/index": {
-            "pdf-build": "False"
-        },
         "ThreeD/three_d_model": {
+            "pdf-build": "False",
             "orphan": ""
         },
         "TutorialGuide/index": {

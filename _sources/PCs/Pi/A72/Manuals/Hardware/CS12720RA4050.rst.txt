@@ -10,6 +10,8 @@
 
 .. |Product| replace:: The |product| industrial Pi PC
 
+.. |CM4_cpu| replace:: Raspberry |Pi| CM4; Quad Cortex-A72 at 1.5GHz
+
 .. |TFNum| replace:: 1
 
 .. |tf_des| replace:: Chipsee designed TF card slots for storage expansion, as the TF card for storage expansion use same pins with WiFi, it can't be used with WiFi at same time
@@ -68,6 +70,8 @@
                   :align: middle
                   :width: 384 
                   
+.. |Cover PNG| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.jpeg
                   :class: product-img
 
@@ -119,7 +123,7 @@ There are many connectivity options available on the |product| industrial Pi PC.
 RS232/RS485/CAN
 ---------------
 
-The serial communication interfaces (RS485, RS482, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
+The serial communication interfaces (RS485, RS232, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
 
 .. figure:: /Media/Pi/A72/CS12720RA4050/CM4-5-IO-Peripherals.jpg
    :align: center
@@ -304,5 +308,7 @@ product measurements.
 |productP|
 ----------
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

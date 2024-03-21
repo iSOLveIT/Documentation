@@ -46,6 +46,11 @@
 
 .. |rs485| replace:: 1 x RS485 (4 at most, 1 debug port)
 
+.. _product_link: https://chipsee.com/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A72/CS10768R150/PPC-A72-150-C-Front.png
 
 .. |Front View| image:: /Media/ARM/A72/CS10768R150/PPC-A72-150-C-Front.jpeg
                   :class: product-img
@@ -104,7 +109,7 @@ RS232+RS485 Connector
 ---------------------
 
 The serial communication interfaces (RS485 and RS232) are routed to a **16-pin 3.81mm terminal**, as illustrated in the figure below.
-Serial communication on both RS485 and RS422 interfaces can reach up to 115200 kbps.
+Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
 
 .. figure:: /Media/ARM/A72/CS10768R150/IO_Peripherals.jpeg
    :align: center
@@ -161,6 +166,8 @@ The table below offers more detailed description of every pin and its definition
 
    If you need different RS232/RS485 configuration, contact the Chipsee Technical Support at |email|_.
 
+:pagebreak:`True`
+
 .. include:: Legacy_Resources/133_150_156_215/USB
 
 .. include:: Legacy_Resources/133_150_156_215/LAN
@@ -191,6 +198,12 @@ product measurements.
 
   |product| *Technical Drawing*
 
+:pagebreak:`True`
+
 .. include:: PPC_Resources/mounting
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

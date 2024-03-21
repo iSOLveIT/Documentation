@@ -41,13 +41,15 @@
 
 .. |pwr| replace:: ≤ 16W
 
-.. |vin_rng| replace:: 9V - 30V
+.. |vin_rng| replace:: 12V 3A DC
 
 .. |standby| replace:: ≤ 2W
 
 .. _product_link: https://chipsee.com/product/pim190c/
 
 .. |product_link| replace:: PIM-190-C
+
+.. |Cover PNG| image:: /Media/Displays/PIM-190-C/pim-190-front.png
 
 .. |Front View| image:: /Media/Displays/PIM-190-C/pim-190-front.png
                   :class: product-img
@@ -67,8 +69,6 @@
     :class: html-only
 
 .. include:: Shared/three_main_images
-
-:pagebreak:`True`
 
 .. include:: Resources/overview
 

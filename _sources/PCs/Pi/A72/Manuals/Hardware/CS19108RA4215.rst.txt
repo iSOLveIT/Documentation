@@ -24,7 +24,7 @@
 
 .. |weightP| replace:: 5500g
 
-.. |cur| replace:: 1500mA Max
+.. |cur| replace:: 1500mA Max at 12V
 
 .. |pwr| replace:: 18W Typical
 
@@ -79,7 +79,7 @@
                   :align: middle
                   :width: 960
                   
-.. |mounting_img| image:: /Media/Pi/A72/CS19108RA4215/mechanical.png
+.. |mounting_img| image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-mechanical.png
                   :align: middle
                   :width: 768
 
@@ -95,6 +95,8 @@
                   :align: middle
                   :width: 384
                   
+.. |Cover PNG| image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Front.jpg
                   :class: product-img
 
@@ -124,5 +126,7 @@
     |mounting_img|
 
     *Mechanical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

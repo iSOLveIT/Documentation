@@ -18,9 +18,11 @@
 
 .. |tscreen| replace:: 10-point capacitive touch with 1.0mm Armored Glass
 
+.. |CM4_cpu| replace:: Raspberry |Pi| CM4; Quad Cortex-A72 at 1.5GHz
+
 .. |USB| replace:: 2 x USB 2.0 Host, 1 x USB TYPE-C
 
-.. |LAN| replace:: 1 x Channel Giga LAN
+.. |LAN| replace:: 1 x Giga LAN, **PoE(Power over Ethernet) is optional**
 
 .. |GPIO| replace:: Two 5V Logic GPIO Outputs, can be used as Wiegand signal
 
@@ -58,13 +60,15 @@
 
 .. |product_link| replace:: AIO-CM4-101
 
+.. |Cover PNG| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Front.png
+
 .. |Front View| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Front.jpeg
                   :class: product-img
 
 .. |Rear View| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Back.jpeg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Side.jpeg
+.. |Side View 1| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Side.jpg
                   :class: product-img
 
 .. |Side View 2| image:: /Media/Pi/AIO/CS12800RA4101A/101-Side.jpeg
@@ -94,15 +98,19 @@ Power Input
 ===========
 
 |Product| can be powered by a wide range of input voltages: |vin_rng| DC.
-The total power consumption is typically about 6W. For the power input connector, it's diffrent between CS12800RA4101A_C111 and CS12800RA4101A_C121. 
-The power input connector is a 4.0/1.7mm DC connector for CS12800RA4101A_C111, it's 3.4/1.7mm for CS12800RA4101A_C121. For a proper DC power adapter, refer to the figure below.
-We also provide a customzied power cable of 3.4/1.7mm to 5.5/2.1mm for customer.
+The total power consumption is typically about 6W. For the power input connector, it's different from CS12800RA4101A_C111 and CS12800RA4101A_C121.
+
+The power input connector is a 4.0-1.7mm DC connector for CS12800RA4101A_C111, it's 3.4-1.7mm for CS12800RA4101A_C121. For a proper DC power adapter, refer to the figure below.
+
+We also provide a customized power cable of 3.4-1.7mm to 5.5-2.1mm for customers.
 
 .. Figure:: /Media/Pi/AIO/CS12800RA4101A/101-Power.jpeg
   :align: center
   :figclass: align-center
 
   *Power Adapter Connector*
+
+:pagebreak:`True`
 
 Buttons and Status LED
 ======================
@@ -132,6 +140,7 @@ There are three (3) buttons on the backside of the case: Volume +, Volume -, and
 |Product| boots from the internal eMMC by default. If you want it to boot from the USB TYPE-C connector, please press the Boot Mode button before power ON, and release it 3 seconds after power ON.
 If you use CS12800RA4101A_C121, the Boot Mode button had been changed to VOL+, you should press VOL+ to enter USB download mode.
 
+:pagebreak:`True`
 
 Connectivity
 ============
@@ -160,21 +169,26 @@ There are 2 x Type A **USB HOST connectors** and 1 x **USB TYPE-C Connector** on
     * You can download software to the Raspberry Pi CM4 eMMC using the USB TYPE-C.
     * When you connect the USB TYPE-C to a device, it will disable the USB HOST.
 
+:pagebreak:`True`
+
 LAN Connectors
 ---------------
 
-**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports
-up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module directly.
+**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module directly.
+
+The LAN can be customized to support PoE (Power over Ethernet), **optional**.
 
 .. figure:: /Media/Pi/AIO/CS12800RA4101A/101-LAN.jpeg
   :align: center
   :figclass: align-center
 
-  *RJ45 LAN Connectors*
+  *RJ45 LAN Connector*
 
 .. note::
 
    Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
+
+:pagebreak:`True`
 
 TF Card and SIM Card Slots
 --------------------------
@@ -191,13 +205,14 @@ You can use the SIM card slot when you mount the 4G/LTE module.
 .. Warning::
 
   The product does not come shipped with the TF Card and the SIM Card by default.
-  The TF card slot use same pins with WiFi/Bt, if you enable WiFi/Bt, the TF card function will be disabled, 
-  if you want to enable the TF card feature, you can use follow config in /boot/config.txt to enable it, 
+  The TF card slot use same pins with WiFi/Bt, if you enable WiFi/Bt, the TF card function will be disabled,
+  if you want to enable the TF card feature, you can use follow config in /boot/config.txt to enable it,
   but the WiFi/Bt will be disabled after reboot::
-    
+
 	dtoverlay=sdio,poll_once=off
 	#dtparam=ant2
 
+:pagebreak:`True`
 
 Audio In/Out Connector
 ----------------------
@@ -210,6 +225,8 @@ The product features audio In/Out connector as shown on the figure below.
 
   *Audio IO Connector*
 
+:pagebreak:`True`
+
 ZIGBEE Module
 -------------
 
@@ -219,10 +236,12 @@ ZIGBEE Module
 
     The product does not come with the Zigbee module by default.
 
+:pagebreak:`True`
+
 RS232/RS485/Relay Connector
 ---------------------------
 
-The serial communication interfaces (RS485, RS482, and Relay) are routed to a **10-pin 2.5mm connector**, as illustrated on the figure below.
+The serial communication interfaces (RS485, RS232, and Relay) are routed to a **10-pin 2.5mm connector**, as illustrated on the figure below.
 
 .. figure:: /Media/Pi/AIO/CS12800RA4101A/101-RS232_CON.jpeg
    :align: center
@@ -271,6 +290,8 @@ The table below offers more detailed description of every pin and its definition
     #) The 120Ω match resistor for the RS485 is not mounted by default.
     #) The Relay Max switching voltage is 125VAC or 60VDC. The maximum switching current is 1A. Rated load is 0.3A at 125VAC and 1A at 30VDC.
 
+:pagebreak:`True`
+
 Mic Input
 ---------
 
@@ -285,6 +306,8 @@ The product |Product| has an integrated microphone on the front panel, as shown 
 .. attention::
 
     The product does not come with the integrated microphone mounted by default.
+
+:pagebreak:`True`
 
 Mounting Procedure
 ==================
@@ -308,6 +331,8 @@ You can mount |product| with the Vesa (75 x 75mm) and Stand mounting methods, as
     Please make sure the display is not exposed to high pressure when mounting into an enclosure.
 
 You can find detailed information about mounting in the |mguide|.
+
+:pagebreak:`True`
 
 Mechanical Specifications
 =========================
@@ -333,5 +358,8 @@ product measurements.
 
    *Side Dimension Technical Drawing*
 
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

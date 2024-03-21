@@ -26,6 +26,12 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
+.. _product_link: https://chipsee.com/product/ppc-j1900-150-c/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/Intel/J1900/150/PPC-J1900-150-C-Front.png
+
 .. |Front View| image:: /Media/Intel/J1900/150/PPC-J1900-150-C-Front.jpg
                   :class: product-img
 
@@ -80,5 +86,7 @@
    :figclass: align-center
 
    *PPC-J1900-150-C Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: Resources/CS12800-RK3568-101P/base_replaces_101P
+
 .. |product| replace:: PPC-A55-150
 
 .. |productP| replace:: PPC-A55-150
@@ -14,8 +16,6 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
-
 .. |dimE| replace:: NULL
 
 .. |dimP| replace:: 376 x 300 x 57mm
@@ -24,83 +24,65 @@
 
 .. |weightP| replace:: 4500g
 
-.. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
-
-.. |eMMC| replace:: 16GB
-
-.. |tscreen| replace:: 10-point capacitive touch screen
-
-.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 1 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
-
-.. |opt1| replace:: Supported, Optional
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 12V to 36V
-
 .. |cur| replace:: 1.60A Max at 12V
 
 .. |pwr| replace:: 9.6W Typical, 19.2W Max
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232.
-
-.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
-
-.. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
-
-.. |power_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Power-RK3568-150P.jpg
+.. |power_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Power.jpg
                   :align: middle
                   :width: 576
 
-.. |io_pin_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/IO.jpg
+.. |io_pin_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-IO.jpg
                   :align: middle
-                  :width: 768
+                  :width: 1024
 
-.. |USB2_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/USB2.jpg
+.. |USB2_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-USB2.jpg
                    :align: middle
-                   :width: 96
+                   :width: 384
 
-.. |USB3_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/USB3.jpg
+.. |USB3_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-USB3.jpg
                    :align: middle
-                   :width: 96
+                   :width: 384
 
-.. |USBC_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/TYPE-C.jpg
+.. |USBC_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-USBC.jpg
                    :align: middle
-                   :width: 96
+                   :width: 384
 
-.. |wifi_bt_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Wifi-BT.jpg
+.. |wifi_bt_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-WifiBT.jpg
                   :align: middle
-                  :width: 192
+                  :width: 384
 
 .. |sim_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-SIM.jpg
                   :align: middle
                   :width: 640
                   
-.. |LAN_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/LAN.jpg
+.. |LAN_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-LAN.jpg
                   :align: middle
-                  :width: 192
+                  :width: 384
                   
-.. |TF_SIM_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/TF_Card_SIM_Card.jpg
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-TFSIM.jpg
                   :align: middle
                   :width: 384                                                       
 
-.. |audio_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Audio.jpg
+.. |audio_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Audio.jpg
                   :align: middle
-                  :width: 192
+                  :width: 384
 
-.. |HDMI_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/HDMI.jpg
+.. |HDMI_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-HDMI.jpg
                   :align: middle
-                  :width: 192
+                  :width: 384
 
-.. |PROG_btn_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Prog_Button.jpg
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Prog.jpg
                   :align: middle
-                  :width: 192                 
+                  :width: 384                 
+
+.. _product_link: https://chipsee.com/product/ppc-a55-150/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Front.png
 
 .. |Front View| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Front.jpg
                   :class: product-img
@@ -138,9 +120,9 @@
 
 .. include:: Resources/cap_screen_usb
 
-.. include:: Resources/connectivity_CS12800-RK3568-101P
+.. include:: Resources/CS12800-RK3568-101P/connectivity_101P
 
-.. include:: Resources/USB-101P
+.. include:: Resources/USB
 
 .. include:: Resources/LAN
 
@@ -150,16 +132,20 @@
 
 .. include:: Resources/m2_slot
 
-.. include:: Resources/TF_Card_CS12800-RK3568-101P
+.. include:: Resources/TF_Card
 
-.. include:: Resources/Audio_IO_CS12800-RK3568-101P
+.. include:: Resources/Audio_IO
 
 .. include:: Resources/HDMI
 
-.. include:: Resources/Prog_btn_CS12800-RK3568-101P
+.. include:: Resources/Prog_btn
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

@@ -96,13 +96,88 @@ if (sidebar_item != null){
     sidebar_menu.style.backgroundColor = "#f4f7f7";
 }
 
+// A helper to test if FBX 3D file exists, otherwise will remove the HTML link element in another function
+function fbxExists(fbxName) {
+    let xhr = new XMLHttpRequest();
+    xhr.open('HEAD', `/_static/3d_models/${fbxName}.fbx`, false);
+    xhr.send();
+    return xhr.status == 200;
+}
 
 // Add query param to let 3D js know what product it needs to display, open 3D page.
-function handleThreeDButtonClick() {
-    const link_elem = document.getElementById("3d-link");
-    const productPN = document.querySelector("#d-model>p").textContent.split(' ')[0];
-    if (link_elem && productPN) {
-        const href = `/ThreeD/three_d_model.html?productModel=${productPN}`;
-        window.open(href, '_blank');
+function addParamToThreeD() {
+    const productPN = document.querySelector("#d-model>p");
+
+    if (!productPN) {
+        return;
     }
+    
+    ["epc", "ppc", "aio"].forEach((pcType) => {
+        const linkElem = document.getElementById(`3d-link-${pcType}`);
+        if (!productPN.textContent.includes(pcType.toUpperCase())) {
+            // Avoid AIO mistaken as PPC.
+            linkElem.remove();
+            return;
+        }
+        if (linkElem) {
+            const pcName = `${pcType.toUpperCase()}-${productPN.textContent.split(' ')[0].split('-').slice(1, ).join('-')}`;
+            if (fbxExists(pcName)) {
+                linkElem.href += `?productModel=${pcName}`;
+            } else {
+                // For the three links, remove the ones that do not have actual fbx files.
+                linkElem.remove();
+            }
+        }
+
+    });
 }
+addParamToThreeD();
+
+
+// Consent Banner logics starts
+
+// Get the consent banner element
+const consentBanner = document.getElementById('gdpr-consent-banner');
+
+// Get buttons for accepting and declining cookies
+const acceptCookiesBtn = document.getElementById('accept-cookies');
+
+// Function to hide the consent banner
+function showConsentBanner() {
+    consentBanner.style.display = 'block';
+}
+
+function hideConsentBanner() {
+    consentBanner.style.display = 'none';
+}
+
+function setConsentCookie() {
+    const expiryDate = new Date();
+    // Set the expiry date for the cookie (e.g., 1 year from now)
+    expiryDate.setFullYear(expiryDate.getFullYear() + 1);
+    // Define cookie content and attributes
+    const cookieContent = "consent=accepted; expires=" + expiryDate.toUTCString() + "; path=/";
+    // Set the cookie
+    document.cookie = cookieContent;
+}
+
+// Function to check if the consent cookie exists
+function checkConsentCookie() {
+    return document.cookie.split(';').some((item) => item.trim().startsWith('consent='));
+}
+
+// Event listener for accepting cookies
+acceptCookiesBtn.addEventListener('click', () => {
+    setConsentCookie();
+    hideConsentBanner();
+});
+
+window.onload = function () {
+    const consentCookieExists = checkConsentCookie();
+    if (!consentCookieExists) {
+        // Consent not given, show the banner or disable tracking
+        showConsentBanner();
+    }
+};
+
+// Consent banner logic ends.

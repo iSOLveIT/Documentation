@@ -26,6 +26,12 @@
 
 .. |disp_des| replace:: Touch sensitive |dispsize| with a resolution of |res| pixels
 
+.. _product_link: https://chipsee.com/product/ppc-10210u-150-c/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front.png
+
 .. |Front View| image:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front.jpg
                   :class: product-img
 
@@ -81,5 +87,7 @@
    :target: ../../../../../_images/PPC-10510U-150-C-TD.jpg
  
    *PPC-10510U-150-C Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

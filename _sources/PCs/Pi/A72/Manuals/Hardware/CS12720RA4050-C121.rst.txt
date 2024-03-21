@@ -8,6 +8,8 @@
 
 .. |PN| replace:: PN: CS12720RA4050
 
+.. |CM4_cpu| replace:: Raspberry |Pi| CM4; Quad Cortex-A72 at 1.5GHz
+
 .. |Product| replace:: The |product| industrial Pi PC
 
 .. |TFNum| replace:: 1
@@ -24,6 +26,10 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
+.. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
+
+.. |mounting_table| replace:: |productP|: Panel, VESA
+
 .. |dimE| replace:: NULL
 
 .. |dimP| replace:: 138.55 x 84.70 x 27.10mm
@@ -32,7 +38,7 @@
 
 .. |weightP| replace:: 310g
 
-.. |tscreen| replace:: 5-point capacitive touch
+.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
 
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 
@@ -52,7 +58,7 @@
 
 .. |USB| replace:: 2 x USB 2.0 Host, 1 x Type-C
 
-.. |LAN| replace:: 1 x Channel Giga LAN
+.. |LAN| replace:: 1 x Giga LAN
 
 .. |TF_boot| replace:: The SD is used for memory extension. It can’t be used for system boot-up.
 
@@ -70,9 +76,9 @@
 
 .. |opt2| replace:: Supported but depending on the CM4 selected
 
-.. |vin_rng| replace:: From 9V to 36V
+.. |vin_rng| replace:: From 6V to 36V
 
-.. |cur| replace:: 500mA Max
+.. |cur| replace:: 500mA Max at 12V
 
 .. |pwr| replace:: 6W Typical
 
@@ -120,7 +126,7 @@
 
 .. |rs232_485_can_img| image:: /Media/Pi/A72/CS12720RA4050-C121/RS232_RS485_CAN.png
                   :align: middle
-                  :width: 480
+                  :width: 384
 
 .. |lan_img| image:: /Media/Pi/A72/CS12720RA4050-C121/LAN.png 
                   :align: middle
@@ -130,19 +136,19 @@
                   :align: middle
                   :width: 384
 
+.. |Cover PNG| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Front.png
                   :class: product-img
 
-.. |Rear View| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Back.png
+.. |Rear View| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Rear.png
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Side.png
+.. |Side View 1| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Side1.png
                   :class: product-img
-                  :alt: Rear View
 
-.. |Side View 2| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Side.png
+.. |Side View 2| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Side2.png
                   :class: product-img
-                  :alt: Side View
 
 .. _PPC-CM4-050:
 
@@ -197,5 +203,9 @@ Please refer to the technical drawing in the figure below for details related to
    :figclass: align-center
 
    |productP| *Technical Drawing*
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

@@ -54,6 +54,11 @@
 
 .. |rs485| replace:: 2 x RS485 (Optional 4 x RS485 at most, 1 debug port)
 
+.. _product_link: https://chipsee.com/product/epc-a72-101/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.png
 
 .. |Front View| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.jpeg
                   :class: product-img
@@ -120,6 +125,8 @@ There are 4 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
 
+:pagebreak:`True`
+
 .. include:: Legacy_Resources/101/LAN
 
 .. include:: Legacy_Resources/101/WiFi_BT
@@ -169,6 +176,8 @@ You can mount |productP| with the Panel mounting methods, as shown on the figure
 
 You can find detailed information about mounting in the |mguide|.
 
+:pagebreak:`True`
+
 Mechanical Specifications
 =========================
 
@@ -199,5 +208,7 @@ product measurements.
 
     * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
     * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support
