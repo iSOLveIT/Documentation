@@ -42,6 +42,13 @@
             "pdf-type": "displays",
             "pdf-revision": "1.1"
         },
+        "Displays/PIM-133-P": {
+            "pdf-title": "PIM-133-P",
+            "pdf-subtitle": "PN: CS-D133P",
+            "pdf-filename": "PIM-133-P",
+            "pdf-type": "displays",
+            "pdf-revision": "1.0"
+        },
         "Displays/PIM-150-C": {
             "pdf-title": "PIM-150-C",
             "pdf-subtitle": "PN: CS-D150",
@@ -61,7 +68,7 @@
             "pdf-subtitle": "PN: CS-D156P",
             "pdf-filename": "PIM-156-P",
             "pdf-type": "displays",
-            "pdf-revision": "1.1"
+            "pdf-revision": "1.2"
         },
         "Displays/PIM-170-C": {
             "pdf-title": "PIM-170-C",
@@ -121,9 +128,9 @@
             "orphan": ""
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS10600T070": {
-            "pdf-title": "PPC/EPC-A8-070H-C",
+            "pdf-title": "EPC/PPC-A8-070H-C",
             "pdf-subtitle": "PN: CS10600T070",
-            "pdf-filename": "PPC/EPC-A8-070H-C",
+            "pdf-filename": "EPC/PPC-A8-070H-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS10600T101": {
@@ -133,9 +140,9 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS10768T097": {
-            "pdf-title": "PPC/EPC-A8-097-C",
+            "pdf-title": "EPC/PPC-A8-097-C",
             "pdf-subtitle": "PN: CS10768T097",
-            "pdf-filename": "PPC/EPC-A8-097-C",
+            "pdf-filename": "EPC/PPC-A8-097-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80480T050": {
@@ -145,15 +152,15 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80480T070": {
-            "pdf-title": "PPC/EPC-A8-070-R",
+            "pdf-title": "EPC/PPC-A8-070-R",
             "pdf-subtitle": "PN: CS80480T070",
-            "pdf-filename": "PPC/EPC-A8-070-R",
+            "pdf-filename": "EPC/PPC-A8-070-R",
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80480T070-R233": {
-            "pdf-title": "PPC/EPC-A8-070-HB-R",
+            "pdf-title": "EPC/PPC-A8-070HB-R",
             "pdf-subtitle": "PN: CS80480T070-R233",
-            "pdf-filename": "PPC/EPC-A8-070-HB-R",
+            "pdf-filename": "EPC/PPC-A8-070HB-R",
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80600T080": {
@@ -682,6 +689,18 @@
             "pdf-filename": "PPC-A53-070",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/iMX8MP/Manuals/Hardware/CS12720-IMX8MP-050P": {
+            "pdf-title": "PPC-A53-050",
+            "pdf-subtitle": "PN: CS12720-IMX8MP-050P",
+            "pdf-filename": "PPC-A53-050",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/iMX8MP/Manuals/Hardware/CS12800-IMX8MP-101P": {
+            "pdf-title": "PPC-A53-101",
+            "pdf-subtitle": "PN: CS12800-IMX8MP-101P",
+            "pdf-filename": "PPC-A53-101",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/iMX8MP/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
@@ -698,9 +717,6 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/iMX8MP/Manuals/Software/index": {
-            "pdf-build": "False"
-        },
-        "PCs/ARM/iMX8MP/OS_Downloads/CS10600-IMX8MP-070P": {
             "pdf-build": "False"
         },
         "PCs/ARM/iMX8MP/OS_Downloads/index": {
@@ -943,20 +959,20 @@
             "pdf-type": "ipc"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS12720RA4050": {
-            "pdf-title": "EPC/PPC-CM4-050",
-            "pdf-subtitle": "PN: CS12720RA4050",
-            "pdf-filename": "EPC/PPC-CM4-050",
+            "pdf-title": "EPC-CM4-050",
+            "pdf-subtitle": "PN: CS12720RA4050E",
+            "pdf-filename": "EPC-CM4-050",
             "pdf-type": "ipc"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS12720RA4050-C121": {
             "pdf-title": "PPC-CM4-050",
-            "pdf-subtitle": "PN: CS12720RA4050",
+            "pdf-subtitle": "PN: CS12720RA4050P",
             "pdf-filename": "PPC-CM4-050",
             "pdf-type": "ipc"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS12800RA4101": {
             "pdf-title": "PPC-CM4-101",
-            "pdf-subtitle": "PN: CS12800RA4101",
+            "pdf-subtitle": "PN: CS12800RA4101P",
             "pdf-filename": "PPC-CM4-101",
             "pdf-type": "ipc"
         },
